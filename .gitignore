@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+
+# Secrets / local config
+kingston_scraper/.env
+
+# Runtime state (cookies, resume/status bookkeeping) -- not source, not data to ship
+kingston_scraper/state/*.json
+
+# Logs
+kingston_scraper/logs/
+kingston_scraper/audit_full_run.log
+
+# Debug snapshots of blocked pages -- transient troubleshooting artifacts, not deliverable data
+kingston_scraper/output/debug/
+kingston_scraper/output/.~lock.*
+
+# Redundant raw archive of the already-extracted kingston_scraper/ project
+kingston_scraper.zip
+kingston_scraper/output/kingston_test_5.zip
+
+# Superseded ad-hoc verification tool (see README note) -- kept locally, not part of this repo
+/verification/
+/verify_kingston_csv.py
+/output/

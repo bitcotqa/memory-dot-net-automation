@@ -1,0 +1,5469 @@
+{
+  "run_timestamp": "2026-09-01T08:40:29.133571+00:00",
+  "sample_size_requested": 259,
+  "servers_audited": 198,
+  "servers_unreachable": 61,
+  "results": [
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/model/36475/abit-an9-32x-motherboard",
+      "server_name": "ABIT- AN9 32X Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR533D2E4/1G",
+          "KVR533D2E4/256",
+          "KVR533D2E4/2G",
+          "KVR533D2E4/512",
+          "KVR533D2E4K2/1G",
+          "KVR533D2E4K2/2G",
+          "KVR533D2E4K2/4G",
+          "KVR533D2E4K2/512",
+          "KVR533D2N4/1G",
+          "KVR533D2N4/256",
+          "KVR533D2N4/2G",
+          "KVR533D2N4/512",
+          "KVR533D2N4K2/1G",
+          "KVR533D2N4K2/2G",
+          "KVR533D2N4K2/4G",
+          "KVR533D2N4K2/512",
+          "KVR667D2E5/1G",
+          "KVR667D2E5/256",
+          "KVR667D2E5/512",
+          "KVR667D2E5K2/1G",
+          "KVR667D2E5K2/2G",
+          "KVR667D2E5K2/512",
+          "KVR667D2N5/1G",
+          "KVR667D2N5/256",
+          "KVR667D2N5/2G",
+          "KVR667D2N5/512",
+          "KVR667D2N5K2/1G",
+          "KVR667D2N5K2/2G",
+          "KVR667D2N5K2/512",
+          "KVR800D2E6/1G",
+          "KVR800D2E6/2G",
+          "KVR800D2E6/512",
+          "KVR800D2E6K2/1G",
+          "KVR800D2E6K2/2G",
+          "KVR800D2E6K2/4G",
+          "KVR800D2N6/1G",
+          "KVR800D2N6/2G",
+          "KVR800D2N6/512",
+          "KVR800D2N6K2/1G",
+          "KVR800D2N6K2/2G",
+          "KVR800D2N6K2/4G"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/model/56829/abit-ab9-wi-fi-motherboard",
+      "server_name": "ABIT- AB9 Wi-Fi Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR533D2N4/1G",
+          "KVR533D2N4/256",
+          "KVR533D2N4/2G",
+          "KVR533D2N4/512",
+          "KVR533D2N4K2/1G",
+          "KVR533D2N4K2/2G",
+          "KVR533D2N4K2/4G",
+          "KVR533D2N4K2/512",
+          "KVR667D2N5/1G",
+          "KVR667D2N5/256",
+          "KVR667D2N5/2G",
+          "KVR667D2N5/512",
+          "KVR667D2N5K2/1G",
+          "KVR667D2N5K2/2G",
+          "KVR667D2N5K2/4G",
+          "KVR667D2N5K2/512",
+          "KVR800D2N6/1G",
+          "KVR800D2N6/2G",
+          "KVR800D2N6/512",
+          "KVR800D2N6K2/1G",
+          "KVR800D2N6K2/2G",
+          "KVR800D2N6K2/4G"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/model/56830/abit-ip35p-motherboard",
+      "server_name": "ABIT- IP35P Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR800D2N6/1G",
+          "KVR800D2N6/2G",
+          "KVR800D2N6/512",
+          "KVR800D2N6K2/1G",
+          "KVR800D2N6K2/2G",
+          "KVR800D2N6K2/4G"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/model/56832/abit-an78gv-motherboard",
+      "server_name": "ABIT- AN78GV Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR1066D2N7/1G",
+          "KVR1066D2N7/512",
+          "KVR1066D2N7K2/1G",
+          "KVR1066D2N7K2/2G",
+          "KVR667D2N5/1G",
+          "KVR667D2N5/256",
+          "KVR667D2N5/2G",
+          "KVR667D2N5/512",
+          "KVR667D2N5K2/1G",
+          "KVR667D2N5K2/2G",
+          "KVR667D2N5K2/4G",
+          "KVR667D2N5K2/512",
+          "KVR800D2N6/1G",
+          "KVR800D2N6/2G",
+          "KVR800D2N6/512",
+          "KVR800D2N6K2/1G",
+          "KVR800D2N6K2/2G",
+          "KVR800D2N6K2/4G"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/model/54393/abit-a-s78h-motherboard",
+      "server_name": "ABIT- A-S78H Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR1066D2N7/1G",
+          "KVR1066D2N7/512",
+          "KVR1066D2N7K2/1G",
+          "KVR1066D2N7K2/2G",
+          "KVR667D2N5/1G",
+          "KVR667D2N5/256",
+          "KVR667D2N5/2G",
+          "KVR667D2N5/512",
+          "KVR667D2N5K2/1G",
+          "KVR667D2N5K2/2G",
+          "KVR667D2N5K2/4G",
+          "KVR667D2N5K2/512",
+          "KVR800D2N6/1G",
+          "KVR800D2N6/2G",
+          "KVR800D2N6/512",
+          "KVR800D2N6K2/1G",
+          "KVR800D2N6K2/2G",
+          "KVR800D2N6K2/4G"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/model/52707/abit-ix48-gt3-motherboard",
+      "server_name": "ABIT- IX48 GT3 Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR1066D3N7/1G",
+          "KVR1066D3N7/2G",
+          "KVR1066D3N7K2/2G",
+          "KVR1066D3N7K2/4G",
+          "KVR1333D3N9/1G",
+          "KVR1333D3N9/2G",
+          "KVR1333D3N9K2/2G",
+          "KVR1333D3N9K2/4G"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/model/52708/abit-ip43-motherboard",
+      "server_name": "ABIT- IP43 Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR667D2N5/1G",
+          "KVR667D2N5/256",
+          "KVR667D2N5/2G",
+          "KVR667D2N5/512",
+          "KVR667D2N5K2/1G",
+          "KVR667D2N5K2/2G",
+          "KVR667D2N5K2/4G",
+          "KVR667D2N5K2/512",
+          "KVR800D2N6/1G",
+          "KVR800D2N6/2G",
+          "KVR800D2N6/512",
+          "KVR800D2N6K2/1G",
+          "KVR800D2N6K2/2G",
+          "KVR800D2N6K2/4G"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/model/49199/abit-an78gs-motherboard",
+      "server_name": "ABIT- AN78GS Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR1066D2N7/1G",
+          "KVR1066D2N7/512",
+          "KVR1066D2N7K2/1G",
+          "KVR1066D2N7K2/2G",
+          "KVR667D2N5/1G",
+          "KVR667D2N5/256",
+          "KVR667D2N5/2G",
+          "KVR667D2N5/512",
+          "KVR667D2N5K2/1G",
+          "KVR667D2N5K2/2G",
+          "KVR667D2N5K2/4G",
+          "KVR667D2N5K2/512",
+          "KVR800D2N6/1G",
+          "KVR800D2N6/2G",
+          "KVR800D2N6/512",
+          "KVR800D2N6K2/1G",
+          "KVR800D2N6K2/2G",
+          "KVR800D2N6K2/4G"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/model/49201/abit-nf-m2pv-motherboard",
+      "server_name": "ABIT- NF-M2PV Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR533D2E4/1G",
+          "KVR533D2E4/2G",
+          "KVR533D2E4/512",
+          "KVR533D2E4K2/1G",
+          "KVR533D2E4K2/2G",
+          "KVR533D2E4K2/4G",
+          "KVR533D2N4/1G",
+          "KVR533D2N4/256",
+          "KVR533D2N4/2G",
+          "KVR533D2N4/512",
+          "KVR533D2N4K2/1G",
+          "KVR533D2N4K2/2G",
+          "KVR533D2N4K2/4G",
+          "KVR533D2N4K2/512",
+          "KVR667D2E5/1G",
+          "KVR667D2E5/2G",
+          "KVR667D2E5/512",
+          "KVR667D2E5K2/1G",
+          "KVR667D2E5K2/2G",
+          "KVR667D2E5K2/4G",
+          "KVR667D2E5K2/8G",
+          "KVR667D2N5/1G",
+          "KVR667D2N5/256",
+          "KVR667D2N5/2G",
+          "KVR667D2N5/4G",
+          "KVR667D2N5/512",
+          "KVR667D2N5K2/1G",
+          "KVR667D2N5K2/2G",
+          "KVR667D2N5K2/4G",
+          "KVR667D2N5K2/512",
+          "KVR667D2N5K2/8G",
+          "KVR800D2E6/1G",
+          "KVR800D2E6/2G",
+          "KVR800D2E6/512",
+          "KVR800D2E6K2/1G",
+          "KVR800D2E6K2/2G",
+          "KVR800D2E6K2/4G",
+          "KVR800D2N6/1G",
+          "KVR800D2N6/2G",
+          "KVR800D2N6/512",
+          "KVR800D2N6K2/1G",
+          "KVR800D2N6K2/2G",
+          "KVR800D2N6K2/4G"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/model/49004/abit-ip45-pro-motherboard",
+      "server_name": "ABIT- IP45 Pro Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR1066D2N7/1G",
+          "KVR1066D2N7/512",
+          "KVR1066D2N7K2/1G",
+          "KVR1066D2N7K2/2G"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/model/47738/abit-ip35-pro-xe-motherboard",
+      "server_name": "ABIT- IP35 Pro XE Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR1066D2N7/1G",
+          "KVR1066D2N7/512",
+          "KVR1066D2N7K2/1G",
+          "KVR1066D2N7K2/2G",
+          "KVR667D2N5/1G",
+          "KVR667D2N5/256",
+          "KVR667D2N5/2G",
+          "KVR667D2N5/512",
+          "KVR667D2N5K2/1G",
+          "KVR667D2N5K2/2G",
+          "KVR667D2N5K2/4G",
+          "KVR667D2N5K2/512",
+          "KVR800D2N6/1G",
+          "KVR800D2N6/2G",
+          "KVR800D2N6/512",
+          "KVR800D2N6K2/1G",
+          "KVR800D2N6K2/2G",
+          "KVR800D2N6K2/4G"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/model/47415/abit-i-g31-motherboard",
+      "server_name": "ABIT- I-G31 Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR800D2N6/1G",
+          "KVR800D2N6/2G",
+          "KVR800D2N6/512",
+          "KVR800D2N6K2/1G",
+          "KVR800D2N6K2/2G",
+          "KVR800D2N6K2/4G"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/model/47446/abit-i-s71-motherboard",
+      "server_name": "ABIT- I-S71 Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR667D2N5/1G",
+          "KVR667D2N5/256",
+          "KVR667D2N5/2G",
+          "KVR667D2N5/512",
+          "KVR667D2N5K2/1G",
+          "KVR667D2N5K2/2G",
+          "KVR667D2N5K2/4G",
+          "KVR667D2N5K2/512"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/model/45869/abit-an-m2-motherboard",
+      "server_name": "ABIT- AN-M2 Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR800D2E6/1G",
+          "KVR800D2E6/2G",
+          "KVR800D2E6/512",
+          "KVR800D2E6K2/1G",
+          "KVR800D2E6K2/2G",
+          "KVR800D2E6K2/4G",
+          "KVR800D2N6/1G",
+          "KVR800D2N6/2G",
+          "KVR800D2N6/512",
+          "KVR800D2N6K2/1G",
+          "KVR800D2N6K2/2G",
+          "KVR800D2N6K2/4G"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/model/44428/abit-i-n73v-motherboard",
+      "server_name": "ABIT- I-N73V Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR800D2N6/1G",
+          "KVR800D2N6/2G",
+          "KVR800D2N6/512",
+          "KVR800D2N6K2/1G",
+          "KVR800D2N6K2/2G",
+          "KVR800D2N6K2/4G"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/model/44431/abit-i-45cv-motherboard",
+      "server_name": "ABIT- I-45CV Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR400D2N3/1G",
+          "KVR400D2N3/256",
+          "KVR400D2N3/2G",
+          "KVR400D2N3/512",
+          "KVR400D2N3K2/1G",
+          "KVR400D2N3K2/2G",
+          "KVR400D2N3K2/4G",
+          "KVR400D2N3K2/512",
+          "KVR533D2N4/1G",
+          "KVR533D2N4/256",
+          "KVR533D2N4/2G",
+          "KVR533D2N4/512",
+          "KVR533D2N4K2/1G",
+          "KVR533D2N4K2/2G",
+          "KVR533D2N4K2/4G",
+          "KVR533D2N4K2/512",
+          "KVR667D2N5/1G",
+          "KVR667D2N5/256",
+          "KVR667D2N5/2G",
+          "KVR667D2N5/512",
+          "KVR667D2N5K2/1G",
+          "KVR667D2N5K2/2G",
+          "KVR667D2N5K2/4G",
+          "KVR667D2N5K2/512"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/model/43655/abit-an68sd-motherboard",
+      "server_name": "ABIT- AN68SD Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR533D2N4/1G",
+          "KVR533D2N4/256",
+          "KVR533D2N4/2G",
+          "KVR533D2N4/512",
+          "KVR533D2N4K2/1G",
+          "KVR533D2N4K2/2G",
+          "KVR533D2N4K2/4G",
+          "KVR533D2N4K2/512",
+          "KVR667D2N5/1G",
+          "KVR667D2N5/256",
+          "KVR667D2N5/2G",
+          "KVR667D2N5/512",
+          "KVR667D2N5K2/1G",
+          "KVR667D2N5K2/2G",
+          "KVR667D2N5K2/4G",
+          "KVR667D2N5K2/512",
+          "KVR800D2N6/1G",
+          "KVR800D2N6/2G",
+          "KVR800D2N6/512",
+          "KVR800D2N6K2/1G",
+          "KVR800D2N6K2/2G",
+          "KVR800D2N6K2/4G"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/model/43049/abit-ip35v-motherboard",
+      "server_name": "ABIT- IP35V Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR1066D2N7/1G",
+          "KVR1066D2N7/512",
+          "KVR1066D2N7K2/1G",
+          "KVR1066D2N7K2/2G",
+          "KVR667D2N5/1G",
+          "KVR667D2N5/256",
+          "KVR667D2N5/2G",
+          "KVR667D2N5/512",
+          "KVR667D2N5K2/1G",
+          "KVR667D2N5K2/2G",
+          "KVR667D2N5K2/4G",
+          "KVR667D2N5K2/512",
+          "KVR800D2N6/1G",
+          "KVR800D2N6/2G",
+          "KVR800D2N6/512",
+          "KVR800D2N6K2/1G",
+          "KVR800D2N6K2/2G",
+          "KVR800D2N6K2/4G"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/model/41879/abit-i-45c-motherboard",
+      "server_name": "ABIT- I-45C Motherboard",
+      "unreachable": true,
+      "failure_type": "Blocked",
+      "reason": "Bot-check / CAPTCHA interstitial returned instead of page content"
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/model/40326/abit-an52s-motherboard",
+      "server_name": "ABIT- AN52S Motherboard",
+      "unreachable": true,
+      "failure_type": "Blocked",
+      "reason": "Bot-check / CAPTCHA interstitial returned instead of page content"
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/model/39679/abit-lg-95-motherboard",
+      "server_name": "ABIT- LG-95 Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR667D2N5/1G",
+          "KVR667D2N5/256",
+          "KVR667D2N5/512",
+          "KVR667D2N5K2/1G",
+          "KVR667D2N5K2/2G",
+          "KVR667D2N5K2/512"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/model/38714/abit-lg-95c-motherboard",
+      "server_name": "ABIT- LG-95C Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR667D2N5/1G",
+          "KVR667D2N5/256",
+          "KVR667D2N5/512",
+          "KVR667D2N5K2/1G",
+          "KVR667D2N5K2/2G",
+          "KVR667D2N5K2/512"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/model/38716/abit-an-m2-nview-motherboard",
+      "server_name": "ABIT- AN-M2 NVIEW Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR800D2E6/1G",
+          "KVR800D2E6/2G",
+          "KVR800D2E6/512",
+          "KVR800D2E6K2/1G",
+          "KVR800D2E6K2/2G",
+          "KVR800D2E6K2/4G",
+          "KVR800D2N6/1G",
+          "KVR800D2N6/2G",
+          "KVR800D2N6/512",
+          "KVR800D2N6K2/1G",
+          "KVR800D2N6K2/2G",
+          "KVR800D2N6K2/4G"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/model/38717/abit-an-m2hd-motherboard",
+      "server_name": "ABIT- AN-M2HD Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR800D2E6/1G",
+          "KVR800D2E6/2G",
+          "KVR800D2E6/512",
+          "KVR800D2E6K2/1G",
+          "KVR800D2E6K2/2G",
+          "KVR800D2E6K2/4G",
+          "KVR800D2N6/1G",
+          "KVR800D2N6/2G",
+          "KVR800D2N6/512",
+          "KVR800D2N6K2/1G",
+          "KVR800D2N6K2/2G",
+          "KVR800D2N6K2/4G"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/model/38718/abit-an52-motherboard",
+      "server_name": "ABIT- AN52 Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR800D2E6/1G",
+          "KVR800D2E6/2G",
+          "KVR800D2E6/512",
+          "KVR800D2E6K2/1G",
+          "KVR800D2E6K2/2G",
+          "KVR800D2E6K2/4G",
+          "KVR800D2N6/1G",
+          "KVR800D2N6/2G",
+          "KVR800D2N6/512",
+          "KVR800D2N6K2/1G",
+          "KVR800D2N6K2/2G",
+          "KVR800D2N6K2/4G"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/model/38719/abit-nf-m2sv-motherboard",
+      "server_name": "ABIT- NF-M2SV Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR533D2E4/1G",
+          "KVR533D2E4/256",
+          "KVR533D2E4/512",
+          "KVR533D2E4K2/1G",
+          "KVR533D2E4K2/2G",
+          "KVR533D2E4K2/512",
+          "KVR533D2N4/1G",
+          "KVR533D2N4/256",
+          "KVR533D2N4/512",
+          "KVR533D2N4K2/1G",
+          "KVR533D2N4K2/2G",
+          "KVR533D2N4K2/512",
+          "KVR667D2E5/1G",
+          "KVR667D2E5/256",
+          "KVR667D2E5/512",
+          "KVR667D2E5K2/1G",
+          "KVR667D2E5K2/2G",
+          "KVR667D2N5/1G",
+          "KVR667D2N5/256",
+          "KVR667D2N5/512",
+          "KVR667D2N5K2/1G",
+          "KVR667D2N5K2/2G",
+          "KVR667D2N5K2/512",
+          "KVR800D2E6/1G",
+          "KVR800D2E6/512",
+          "KVR800D2E6K2/1G",
+          "KVR800D2E6K2/2G",
+          "KVR800D2N6/1G",
+          "KVR800D2N6/512",
+          "KVR800D2N6K2/1G",
+          "KVR800D2N6K2/2G"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/model/37907/abit-ip35-pro-motherboard",
+      "server_name": "ABIT- IP35 Pro Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR533D2N4/1G",
+          "KVR533D2N4/256",
+          "KVR533D2N4/2G",
+          "KVR533D2N4/512",
+          "KVR533D2N4K2/1G",
+          "KVR533D2N4K2/2G",
+          "KVR533D2N4K2/4G",
+          "KVR533D2N4K2/512",
+          "KVR667D2N5/1G",
+          "KVR667D2N5/256",
+          "KVR667D2N5/2G",
+          "KVR667D2N5/512",
+          "KVR667D2N5K2/1G",
+          "KVR667D2N5K2/2G",
+          "KVR667D2N5K2/4G",
+          "KVR667D2N5K2/512",
+          "KVR800D2N6/1G",
+          "KVR800D2N6/2G",
+          "KVR800D2N6/512",
+          "KVR800D2N6K2/1G",
+          "KVR800D2N6K2/2G",
+          "KVR800D2N6K2/4G"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/model/37908/abit-ip35-motherboard",
+      "server_name": "ABIT- IP35 Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR533D2N4/1G",
+          "KVR533D2N4/256",
+          "KVR533D2N4/2G",
+          "KVR533D2N4/512",
+          "KVR533D2N4K2/1G",
+          "KVR533D2N4K2/2G",
+          "KVR533D2N4K2/4G",
+          "KVR533D2N4K2/512",
+          "KVR667D2N5/1G",
+          "KVR667D2N5/256",
+          "KVR667D2N5/2G",
+          "KVR667D2N5/512",
+          "KVR667D2N5K2/1G",
+          "KVR667D2N5K2/2G",
+          "KVR667D2N5K2/4G",
+          "KVR667D2N5K2/512",
+          "KVR800D2N6/1G",
+          "KVR800D2N6/2G",
+          "KVR800D2N6/512",
+          "KVR800D2N6K2/1G",
+          "KVR800D2N6K2/2G",
+          "KVR800D2N6K2/4G"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/model/37909/abit-ip35-e-motherboard",
+      "server_name": "ABIT- IP35-E Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR533D2N4/1G",
+          "KVR533D2N4/256",
+          "KVR533D2N4/2G",
+          "KVR533D2N4/512",
+          "KVR533D2N4K2/1G",
+          "KVR533D2N4K2/2G",
+          "KVR533D2N4K2/4G",
+          "KVR533D2N4K2/512",
+          "KVR667D2N5/1G",
+          "KVR667D2N5/256",
+          "KVR667D2N5/2G",
+          "KVR667D2N5/512",
+          "KVR667D2N5K2/1G",
+          "KVR667D2N5K2/2G",
+          "KVR667D2N5K2/4G",
+          "KVR667D2N5K2/512",
+          "KVR800D2N6/1G",
+          "KVR800D2N6/2G",
+          "KVR800D2N6/512",
+          "KVR800D2N6K2/1G",
+          "KVR800D2N6K2/2G",
+          "KVR800D2N6K2/4G"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/model/36893/abit-an9-32xf-motherboard",
+      "server_name": "ABIT- AN9 32XF Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR533D2E4/1G",
+          "KVR533D2E4/256",
+          "KVR533D2E4/2G",
+          "KVR533D2E4/512",
+          "KVR533D2E4K2/1G",
+          "KVR533D2E4K2/2G",
+          "KVR533D2E4K2/4G",
+          "KVR533D2E4K2/512",
+          "KVR533D2N4/1G",
+          "KVR533D2N4/256",
+          "KVR533D2N4/2G",
+          "KVR533D2N4/512",
+          "KVR533D2N4K2/1G",
+          "KVR533D2N4K2/2G",
+          "KVR533D2N4K2/4G",
+          "KVR533D2N4K2/512",
+          "KVR667D2E5/1G",
+          "KVR667D2E5/256",
+          "KVR667D2E5/512",
+          "KVR667D2E5K2/1G",
+          "KVR667D2E5K2/2G",
+          "KVR667D2E5K2/512",
+          "KVR667D2N5/1G",
+          "KVR667D2N5/256",
+          "KVR667D2N5/2G",
+          "KVR667D2N5/512",
+          "KVR667D2N5K2/1G",
+          "KVR667D2N5K2/2G",
+          "KVR667D2N5K2/512",
+          "KVR800D2E6/1G",
+          "KVR800D2E6/2G",
+          "KVR800D2E6/512",
+          "KVR800D2E6K2/1G",
+          "KVR800D2E6K2/2G",
+          "KVR800D2E6K2/4G",
+          "KVR800D2N6/1G",
+          "KVR800D2N6/2G",
+          "KVR800D2N6/512",
+          "KVR800D2N6K2/1G",
+          "KVR800D2N6K2/2G",
+          "KVR800D2N6K2/4G"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/model/36233/abit-fatal1ty-f-i90hd-motherboard",
+      "server_name": "ABIT- Fatal1ty  F-I90HD Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR533D2N4/1G",
+          "KVR533D2N4/256",
+          "KVR533D2N4/2G",
+          "KVR533D2N4/512",
+          "KVR533D2N4K2/1G",
+          "KVR533D2N4K2/2G",
+          "KVR533D2N4K2/4G",
+          "KVR533D2N4K2/512",
+          "KVR667D2N5/1G",
+          "KVR667D2N5/256",
+          "KVR667D2N5/2G",
+          "KVR667D2N5/512",
+          "KVR667D2N5K2/1G",
+          "KVR667D2N5K2/2G",
+          "KVR667D2N5K2/4G",
+          "KVR667D2N5K2/512",
+          "KVR800D2N6/1G",
+          "KVR800D2N6/2G",
+          "KVR800D2N6/512",
+          "KVR800D2N6K2/1G",
+          "KVR800D2N6K2/2G",
+          "KVR800D2N6K2/4G"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/model/35578/abit-fatal1ty-fp-in9-sli-motherboard",
+      "server_name": "ABIT- Fatal1ty FP-IN9 SLI Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR533D2N4/1G",
+          "KVR533D2N4/256",
+          "KVR533D2N4/2G",
+          "KVR533D2N4/512",
+          "KVR533D2N4K2/1G",
+          "KVR533D2N4K2/2G",
+          "KVR533D2N4K2/4G",
+          "KVR533D2N4K2/512",
+          "KVR667D2N5/1G",
+          "KVR667D2N5/256",
+          "KVR667D2N5/2G",
+          "KVR667D2N5/512",
+          "KVR667D2N5K2/1G",
+          "KVR667D2N5K2/2G",
+          "KVR667D2N5K2/4G",
+          "KVR667D2N5K2/512",
+          "KVR800D2N6/1G",
+          "KVR800D2N6/2G",
+          "KVR800D2N6/512",
+          "KVR800D2N6K2/1G",
+          "KVR800D2N6K2/2G",
+          "KVR800D2N6K2/4G"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/model/32320/abit-aw9d-max-motherboard",
+      "server_name": "ABIT- AW9D-MAX Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR667D2N5/1G",
+          "KVR667D2N5/256",
+          "KVR667D2N5/2G",
+          "KVR667D2N5/512",
+          "KVR667D2N5K2/1G",
+          "KVR667D2N5K2/2G",
+          "KVR667D2N5K2/4G",
+          "KVR667D2N5K2/512",
+          "KVR800D2N6/1G",
+          "KVR800D2N6/2G",
+          "KVR800D2N6/512",
+          "KVR800D2N6K2/1G",
+          "KVR800D2N6K2/2G",
+          "KVR800D2N6K2/4G"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/model/33077/abit-nf-m2-nview-motherboard",
+      "server_name": "ABIT- NF-M2 nView Motherboard",
+      "unreachable": true,
+      "failure_type": "Blocked",
+      "reason": "Bot-check / CAPTCHA interstitial returned instead of page content"
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/model/32321/abit-aw9d-motherboard",
+      "server_name": "ABIT- AW9D Motherboard",
+      "unreachable": true,
+      "failure_type": "Blocked",
+      "reason": "Bot-check / CAPTCHA interstitial returned instead of page content"
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/model/32497/abit-ab9-motherboard",
+      "server_name": "ABIT- AB9 Motherboard",
+      "unreachable": true,
+      "failure_type": "Blocked",
+      "reason": "Bot-check / CAPTCHA interstitial returned instead of page content"
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/model/32322/abit-il-90mv-motherboard",
+      "server_name": "ABIT- iL-90MV Motherboard",
+      "unreachable": true,
+      "failure_type": "Navigation Error",
+      "reason": "Failed to open https://www.kingston.com/en/memory/search/model/32322/abit-il-90mv-motherboard"
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/model/32323/abit-sg-95-motherboard",
+      "server_name": "ABIT- SG-95 Motherboard",
+      "unreachable": true,
+      "failure_type": "Blocked",
+      "reason": "Bot-check / CAPTCHA interstitial returned instead of page content"
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/model/32324/abit-kn8-ultra-sotes-motherboard",
+      "server_name": "ABIT- KN8 Ultra-SOTES Motherboard",
+      "unreachable": true,
+      "failure_type": "Blocked",
+      "reason": "Bot-check / CAPTCHA interstitial returned instead of page content"
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/model/31104/abit-sg-80dc-motherboard",
+      "server_name": "ABIT- SG-80DC Motherboard",
+      "unreachable": true,
+      "failure_type": "Blocked",
+      "reason": "Bot-check / CAPTCHA interstitial returned instead of page content"
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/model/31036/abit-kn9-motherboard",
+      "server_name": "ABIT- KN9 Motherboard",
+      "unreachable": true,
+      "failure_type": "Blocked",
+      "reason": "Bot-check / CAPTCHA interstitial returned instead of page content"
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/model/30543/abit-fatal1ty-an9-32x-motherboard",
+      "server_name": "ABIT- Fatal1ty AN9 32X Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR533D2E4/1G",
+          "KVR533D2E4/256",
+          "KVR533D2E4/2G",
+          "KVR533D2E4/512",
+          "KVR533D2E4K2/1G",
+          "KVR533D2E4K2/2G",
+          "KVR533D2E4K2/4G",
+          "KVR533D2E4K2/512",
+          "KVR533D2N4/1G",
+          "KVR533D2N4/256",
+          "KVR533D2N4/2G",
+          "KVR533D2N4/512",
+          "KVR533D2N4K2/1G",
+          "KVR533D2N4K2/2G",
+          "KVR533D2N4K2/4G",
+          "KVR533D2N4K2/512",
+          "KVR667D2E5/1G",
+          "KVR667D2E5/256",
+          "KVR667D2E5/512",
+          "KVR667D2E5K2/1G",
+          "KVR667D2E5K2/2G",
+          "KVR667D2E5K2/512",
+          "KVR667D2N5/1G",
+          "KVR667D2N5/256",
+          "KVR667D2N5/2G",
+          "KVR667D2N5/512",
+          "KVR667D2N5K2/1G",
+          "KVR667D2N5K2/2G",
+          "KVR667D2N5K2/512",
+          "KVR800D2E6/1G",
+          "KVR800D2E6/2G",
+          "KVR800D2E6/512",
+          "KVR800D2E6K2/1G",
+          "KVR800D2E6K2/2G",
+          "KVR800D2E6K2/4G",
+          "KVR800D2N6/1G",
+          "KVR800D2N6/2G",
+          "KVR800D2N6/512",
+          "KVR800D2N6K2/1G",
+          "KVR800D2N6K2/2G",
+          "KVR800D2N6K2/4G"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/model/30544/abit-kn9-sli-motherboard",
+      "server_name": "ABIT- KN9 SLI Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR800D2E6/1G",
+          "KVR800D2E6/2G",
+          "KVR800D2E6/512",
+          "KVR800D2E6K2/1G",
+          "KVR800D2E6K2/2G",
+          "KVR800D2E6K2/4G",
+          "KVR800D2N6/1G",
+          "KVR800D2N6/2G",
+          "KVR800D2N6/512",
+          "KVR800D2N6K2/1G",
+          "KVR800D2N6K2/2G",
+          "KVR800D2N6K2/4G"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/model/30545/abit-is-85-motherboard",
+      "server_name": "ABIT- IS-85 Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR400X64C3A/128",
+          "KVR400X64C3A/1G",
+          "KVR400X64C3A/256",
+          "KVR400X64C3A/512",
+          "KVR400X64C3AK2/1G",
+          "KVR400X64C3AK2/256",
+          "KVR400X64C3AK2/2G",
+          "KVR400X64C3AK2/512"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/model/30546/abit-kn9-ultra-motherboard",
+      "server_name": "ABIT- KN9 Ultra Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR800D2E6/1G",
+          "KVR800D2E6/2G",
+          "KVR800D2E6/512",
+          "KVR800D2E6K2/1G",
+          "KVR800D2E6K2/2G",
+          "KVR800D2E6K2/4G",
+          "KVR800D2N6/1G",
+          "KVR800D2N6/2G",
+          "KVR800D2N6/512",
+          "KVR800D2N6K2/1G",
+          "KVR800D2N6K2/2G",
+          "KVR800D2N6K2/4G"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/model/29916/abit-nf-95-motherboard",
+      "server_name": "ABIT- NF-95 Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR400X64C3A/128",
+          "KVR400X64C3A/1G",
+          "KVR400X64C3A/256",
+          "KVR400X64C3A/512"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/model/24178/abit-lg-81-motherboard",
+      "server_name": "ABIT- LG-81 Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR533D2N4/1G",
+          "KVR533D2N4/256",
+          "KVR533D2N4/512",
+          "KVR533D2N4K2/1G",
+          "KVR533D2N4K2/2G",
+          "KVR533D2N4K2/512",
+          "KVR667D2N5/1G",
+          "KVR667D2N5/256",
+          "KVR667D2N5/512",
+          "KVR667D2N5K2/1G",
+          "KVR667D2N5K2/2G",
+          "KVR667D2N5K2/512"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/model/24057/abit-ni8-sli-motherboard",
+      "server_name": "ABIT- NI8 SLI Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR667D2N5/1G",
+          "KVR667D2N5/256",
+          "KVR667D2N5/2G",
+          "KVR667D2N5/512",
+          "KVR667D2N5K2/1G",
+          "KVR667D2N5K2/2G",
+          "KVR667D2N5K2/512"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/model/21508/abit-nf8-v-motherboard",
+      "server_name": "ABIT- NF8-V Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR400X64C3A/128",
+          "KVR400X64C3A/1G",
+          "KVR400X64C3A/256",
+          "KVR400X64C3A/512"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/model/20369/abit-aa8xe-motherboard",
+      "server_name": "ABIT- AA8XE Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR533D2N4/1G",
+          "KVR533D2N4/256",
+          "KVR533D2N4/512",
+          "KVR533D2N4K2/1G",
+          "KVR533D2N4K2/2G",
+          "KVR533D2N4K2/512"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/model/20375/abit-nf8-motherboard",
+      "server_name": "ABIT- NF8 Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR400X64C3A/128",
+          "KVR400X64C3A/1G",
+          "KVR400X64C3A/256",
+          "KVR400X64C3A/512"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/model/20376/abit-kw7-motherboard",
+      "server_name": "ABIT- KW7 Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR333X64C25/128",
+          "KVR333X64C25/1G",
+          "KVR333X64C25/256",
+          "KVR333X64C25/512",
+          "KVR333X64C25K2/1G",
+          "KVR333X64C25K2/256",
+          "KVR333X64C25K2/2G",
+          "KVR333X64C25K2/512",
+          "KVR400X64C3A/128",
+          "KVR400X64C3A/1G",
+          "KVR400X64C3A/256",
+          "KVR400X64C3A/512",
+          "KVR400X64C3AK2/1G",
+          "KVR400X64C3AK2/256",
+          "KVR400X64C3AK2/2G",
+          "KVR400X64C3AK2/512"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/model/21084/abit-aa8xe-3rd-eye-motherboard",
+      "server_name": "ABIT- AA8XE-3rd Eye Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR533D2N4/1G",
+          "KVR533D2N4/256",
+          "KVR533D2N4/512",
+          "KVR533D2N4K2/1G",
+          "KVR533D2N4K2/2G",
+          "KVR533D2N4K2/512"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/model/21085/abit-kv7-v-motherboard",
+      "server_name": "ABIT- KV7-V Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR266X64C25/128",
+          "KVR266X64C25/1G",
+          "KVR266X64C25/256",
+          "KVR266X64C25/512",
+          "KVR333X64C25/128",
+          "KVR333X64C25/1G",
+          "KVR333X64C25/256",
+          "KVR333X64C25/512",
+          "KVR400X64C3A/1G",
+          "KVR400X64C3A/256",
+          "KVR400X64C3A/512"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/model/21087/abit-kw7-g-motherboard",
+      "server_name": "ABIT- KW7-G Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR333X64C25/128",
+          "KVR333X64C25/1G",
+          "KVR333X64C25/256",
+          "KVR333X64C25/512",
+          "KVR333X64C25K2/1G",
+          "KVR333X64C25K2/256",
+          "KVR333X64C25K2/2G",
+          "KVR333X64C25K2/512",
+          "KVR400X64C3A/128",
+          "KVR400X64C3A/1G",
+          "KVR400X64C3A/256",
+          "KVR400X64C3A/512",
+          "KVR400X64C3AK2/1G",
+          "KVR400X64C3AK2/256",
+          "KVR400X64C3AK2/2G",
+          "KVR400X64C3AK2/512"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/model/19988/abit-kv8-pro-3rd-eye-motherboard",
+      "server_name": "ABIT- KV8 Pro-3rd Eye Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR333X64C25/128",
+          "KVR333X64C25/1G",
+          "KVR333X64C25/256",
+          "KVR333X64C25/512",
+          "KVR333X72C25/1G",
+          "KVR333X72C25/256",
+          "KVR333X72C25/512",
+          "KVR400X64C3A/128",
+          "KVR400X64C3A/1G",
+          "KVR400X64C3A/256",
+          "KVR400X64C3A/512",
+          "KVR400X72C3A/1G",
+          "KVR400X72C3A/256",
+          "KVR400X72C3A/512"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/model/19641/abit-sc-1p-motherboard",
+      "server_name": "ABIT- SC-1P Motherboard",
+      "unreachable": true,
+      "failure_type": "Blocked",
+      "reason": "Bot-check / CAPTCHA interstitial returned instead of page content"
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/model/19501/abit-nf7-s2g-motherboard",
+      "server_name": "ABIT- NF7-S2G Motherboard",
+      "unreachable": true,
+      "failure_type": "Blocked",
+      "reason": "Bot-check / CAPTCHA interstitial returned instead of page content"
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/model/19502/abit-nf7-s2-motherboard",
+      "server_name": "ABIT- NF7-S2 Motherboard",
+      "unreachable": true,
+      "failure_type": "Blocked",
+      "reason": "Bot-check / CAPTCHA interstitial returned instead of page content"
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/20050/abit-si-2ns443-motherboard",
+      "server_name": "ABIT- SI-2Ns443 Motherboard",
+      "unreachable": true,
+      "failure_type": "Blocked",
+      "reason": "Bot-check / CAPTCHA interstitial returned instead of page content"
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/47750/abit-a-n78hd-motherboard",
+      "server_name": "ABIT- A-N78HD Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR1066D2N7/1G",
+          "KVR1066D2N7/512",
+          "KVR1066D2N7K2/1G",
+          "KVR1066D2N7K2/2G",
+          "KVR667D2N5/1G",
+          "KVR667D2N5/256",
+          "KVR667D2N5/2G",
+          "KVR667D2N5/512",
+          "KVR667D2N5K2/1G",
+          "KVR667D2N5K2/2G",
+          "KVR667D2N5K2/4G",
+          "KVR667D2N5K2/512",
+          "KVR800D2N6/1G",
+          "KVR800D2N6/2G",
+          "KVR800D2N6/512",
+          "KVR800D2N6K2/1G",
+          "KVR800D2N6K2/2G",
+          "KVR800D2N6K2/4G"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/31357/abit-ab9-pro-motherboard",
+      "server_name": "ABIT- AB9 Pro Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR533D2N4/1G",
+          "KVR533D2N4/256",
+          "KVR533D2N4/2G",
+          "KVR533D2N4/512",
+          "KVR533D2N4K2/1G",
+          "KVR533D2N4K2/2G",
+          "KVR533D2N4K2/4G",
+          "KVR533D2N4K2/512",
+          "KVR667D2N5/1G",
+          "KVR667D2N5/256",
+          "KVR667D2N5/2G",
+          "KVR667D2N5/512",
+          "KVR667D2N5K2/1G",
+          "KVR667D2N5K2/2G",
+          "KVR667D2N5K2/4G",
+          "KVR667D2N5K2/512",
+          "KVR800D2N6/1G",
+          "KVR800D2N6/2G",
+          "KVR800D2N6/512",
+          "KVR800D2N6K2/1G",
+          "KVR800D2N6K2/2G",
+          "KVR800D2N6K2/4G"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/30547/abit-kn9s-motherboard",
+      "server_name": "ABIT- KN9S Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR800D2E6/1G",
+          "KVR800D2E6/2G",
+          "KVR800D2E6/512",
+          "KVR800D2E6K2/1G",
+          "KVR800D2E6K2/2G",
+          "KVR800D2E6K2/4G",
+          "KVR800D2N6/1G",
+          "KVR800D2N6/2G",
+          "KVR800D2N6/512",
+          "KVR800D2N6K2/1G",
+          "KVR800D2N6K2/2G",
+          "KVR800D2N6K2/4G"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/29899/abit-sg-81-motherboard",
+      "server_name": "ABIT- SG-81 Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR400X64C3A/128",
+          "KVR400X64C3A/1G",
+          "KVR400X64C3A/256",
+          "KVR400X64C3A/512",
+          "KVR400X64C3AK2/1G",
+          "KVR400X64C3AK2/256",
+          "KVR400X64C3AK2/2G",
+          "KVR400X64C3AK2/512"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/29904/abit-at8-32x-motherboard",
+      "server_name": "ABIT- AT8 32X Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR400X64C3A/1G",
+          "KVR400X64C3A/256",
+          "KVR400X64C3A/512",
+          "KVR400X64C3AK2/1G",
+          "KVR400X64C3AK2/256",
+          "KVR400X64C3AK2/2G",
+          "KVR400X64C3AK2/512"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/26042/abit-gd8-pro-motherboard",
+      "server_name": "ABIT- GD8 Pro Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR533D2N4/1G",
+          "KVR533D2N4/256",
+          "KVR533D2N4/512",
+          "KVR533D2N4K2/1G",
+          "KVR533D2N4K2/2G",
+          "KVR533D2N4K2/512"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/26053/abit-il8-motherboard",
+      "server_name": "ABIT- IL8 Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR533D2N4/1G",
+          "KVR533D2N4/256",
+          "KVR533D2N4/512",
+          "KVR533D2N4K2/1G",
+          "KVR533D2N4K2/2G",
+          "KVR533D2N4K2/512",
+          "KVR667D2N5/1G",
+          "KVR667D2N5/256",
+          "KVR667D2N5/512",
+          "KVR667D2N5K2/1G",
+          "KVR667D2N5K2/2G",
+          "KVR667D2N5K2/512"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/25890/abit-an8-32x-motherboard",
+      "server_name": "ABIT- AN8 32X Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR400X64C3A/1G",
+          "KVR400X64C3A/256",
+          "KVR400X64C3A/512",
+          "KVR400X64C3AK2/1G",
+          "KVR400X64C3AK2/2G",
+          "KVR400X64C3AK2/512"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/25888/abit-ul8-motherboard",
+      "server_name": "ABIT- UL8 Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR400X64C3A/1G",
+          "KVR400X64C3A/256",
+          "KVR400X64C3A/512",
+          "KVR400X64C3AK2/1G",
+          "KVR400X64C3AK2/256",
+          "KVR400X64C3AK2/2G",
+          "KVR400X64C3AK2/512"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/25872/abit-at8-motherboard",
+      "server_name": "ABIT- AT8 Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR400X64C3A/1G",
+          "KVR400X64C3A/256",
+          "KVR400X64C3A/512",
+          "KVR400X64C3AK2/1G",
+          "KVR400X64C3AK2/256",
+          "KVR400X64C3AK2/2G",
+          "KVR400X64C3AK2/512"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/25515/abit-kv-85-motherboard",
+      "server_name": "ABIT- KV-85 Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR333X64C25/128",
+          "KVR333X64C25/1G",
+          "KVR333X64C25/256",
+          "KVR333X64C25/512",
+          "KVR333X72C25/1G",
+          "KVR333X72C25/256",
+          "KVR333X72C25/512",
+          "KVR400X64C3A/128",
+          "KVR400X64C3A/1G",
+          "KVR400X64C3A/256",
+          "KVR400X64C3A/512",
+          "KVR400X72C3A/1G",
+          "KVR400X72C3A/256",
+          "KVR400X72C3A/512"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/25194/abit-aw8-max-3rd-eye-ii-motherboard",
+      "server_name": "ABIT- AW8-MAX 3rd Eye II Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR533D2N4/1G",
+          "KVR533D2N4/256",
+          "KVR533D2N4/512",
+          "KVR533D2N4K2/1G",
+          "KVR533D2N4K2/2G",
+          "KVR533D2N4K2/512",
+          "KVR667D2N5/1G",
+          "KVR667D2N5/256",
+          "KVR667D2N5/512",
+          "KVR667D2N5K2/1G",
+          "KVR667D2N5K2/2G",
+          "KVR667D2N5K2/512"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/25195/abit-al8-3rd-eye-ii-motherboard",
+      "server_name": "ABIT- AL8-3rd Eye II Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR533D2N4/1G",
+          "KVR533D2N4/256",
+          "KVR533D2N4/512",
+          "KVR533D2N4K2/1G",
+          "KVR533D2N4K2/2G",
+          "KVR533D2N4K2/512",
+          "KVR667D2N5/1G",
+          "KVR667D2N5/256",
+          "KVR667D2N5/512",
+          "KVR667D2N5K2/1G",
+          "KVR667D2N5K2/2G",
+          "KVR667D2N5K2/512"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/25197/abit-kn8-motherboard",
+      "server_name": "ABIT- KN8 Motherboard",
+      "unreachable": true,
+      "failure_type": "Blocked",
+      "reason": "Bot-check / CAPTCHA interstitial returned instead of page content"
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/19215/abit-vg7-motherboard",
+      "server_name": "ABIT- VG7 Motherboard",
+      "unreachable": true,
+      "failure_type": "Blocked",
+      "reason": "Bot-check / CAPTCHA interstitial returned instead of page content"
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/23764/abit-sv-1a-motherboard",
+      "server_name": "ABIT- SV-1A Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR333X64C25/1G",
+          "KVR333X64C25/256",
+          "KVR333X64C25/512",
+          "KVR333X64C25K2/1G",
+          "KVR333X64C25K2/2G",
+          "KVR333X64C25K2/512",
+          "KVR333X72C25/1G",
+          "KVR333X72C25/256",
+          "KVR333X72C25/512",
+          "KVR400X64C3A/1G",
+          "KVR400X64C3A/256",
+          "KVR400X64C3A/512",
+          "KVR400X64C3AK2/1G",
+          "KVR400X64C3AK2/2G",
+          "KVR400X64C3AK2/512",
+          "KVR400X72C3A/1G",
+          "KVR400X72C3A/256",
+          "KVR400X72C3A/512"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/23561/abit-sg-80-motherboard",
+      "server_name": "ABIT- SG-80 Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR400X64C3A/128",
+          "KVR400X64C3A/1G",
+          "KVR400X64C3A/256",
+          "KVR400X64C3A/512",
+          "KVR400X64C3AK2/1G",
+          "KVR400X64C3AK2/256",
+          "KVR400X64C3AK2/2G",
+          "KVR400X64C3AK2/512"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/23537/abit-an8-sli-motherboard",
+      "server_name": "ABIT- AN8 SLi Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR400X64C3A/1G",
+          "KVR400X64C3A/256",
+          "KVR400X64C3A/512",
+          "KVR400X64C3AK2/1G",
+          "KVR400X64C3AK2/256",
+          "KVR400X64C3AK2/2G",
+          "KVR400X64C3AK2/512"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/23539/abit-aw8-max-motherboard",
+      "server_name": "ABIT- AW8-MAX Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR533D2N4/1G",
+          "KVR533D2N4/256",
+          "KVR533D2N4/512",
+          "KVR533D2N4K2/1G",
+          "KVR533D2N4K2/2G",
+          "KVR533D2N4K2/512",
+          "KVR667D2N5/1G",
+          "KVR667D2N5/256",
+          "KVR667D2N5/512",
+          "KVR667D2N5K2/1G",
+          "KVR667D2N5K2/2G",
+          "KVR667D2N5K2/512"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/23560/abit-an8-ultra-motherboard",
+      "server_name": "ABIT- AN8 Ultra Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR266X64C25/128",
+          "KVR266X64C25/1G",
+          "KVR266X64C25/256",
+          "KVR266X64C25/512",
+          "KVR333X64C25/128",
+          "KVR333X64C25/1G",
+          "KVR333X64C25/256",
+          "KVR333X64C25/512",
+          "KVR333X64C25K2/1G",
+          "KVR333X64C25K2/256",
+          "KVR333X64C25K2/2G",
+          "KVR333X64C25K2/512",
+          "KVR400X64C3A/128",
+          "KVR400X64C3A/1G",
+          "KVR400X64C3A/256",
+          "KVR400X64C3A/512",
+          "KVR400X64C3AK2/1G",
+          "KVR400X64C3AK2/256",
+          "KVR400X64C3AK2/2G",
+          "KVR400X64C3AK2/512"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/23280/abit-fatal1ty-an8-sli-motherboard",
+      "server_name": "ABIT- Fatal1ty AN8 SLi Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR400X64C3A/1G",
+          "KVR400X64C3A/256",
+          "KVR400X64C3A/512",
+          "KVR400X64C3AK2/1G",
+          "KVR400X64C3AK2/256",
+          "KVR400X64C3AK2/2G",
+          "KVR400X64C3AK2/512"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/23167/abit-ku8-motherboard",
+      "server_name": "ABIT- KU8 Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR400X64C3A/128",
+          "KVR400X64C3A/1G",
+          "KVR400X64C3A/256",
+          "KVR400X64C3A/512"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/20368/abit-gd8-motherboard",
+      "server_name": "ABIT- GD8 Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR333X64C25/128",
+          "KVR333X64C25/1G",
+          "KVR333X64C25/256",
+          "KVR333X64C25/512",
+          "KVR333X64C25K2/1G",
+          "KVR333X64C25K2/256",
+          "KVR333X64C25K2/2G",
+          "KVR333X64C25K2/512",
+          "KVR400X64C3A/128",
+          "KVR400X64C3A/1G",
+          "KVR400X64C3A/256",
+          "KVR400X64C3A/512",
+          "KVR400X64C3AK2/1G",
+          "KVR400X64C3AK2/256",
+          "KVR400X64C3AK2/2G",
+          "KVR400X64C3AK2/512"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/21635/abit-ax8-v-motherboard",
+      "server_name": "ABIT- AX8-V Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR266X64C25/128",
+          "KVR266X64C25/1G",
+          "KVR266X64C25/256",
+          "KVR266X64C25/512",
+          "KVR333X64C25/128",
+          "KVR333X64C25/1G",
+          "KVR333X64C25/256",
+          "KVR333X64C25/512",
+          "KVR333X64C25K2/1G",
+          "KVR333X64C25K2/256",
+          "KVR333X64C25K2/2G",
+          "KVR333X64C25K2/512",
+          "KVR400X64C3/256",
+          "KVR400X64C3/512",
+          "KVR400X64C3A/128",
+          "KVR400X64C3A/1G",
+          "KVR400X64C3A/256",
+          "KVR400X64C3A/512",
+          "KVR400X64C3AK2/1G",
+          "KVR400X64C3AK2/256",
+          "KVR400X64C3AK2/2G",
+          "KVR400X64C3AK2/512"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/20371/abit-ig-81-motherboard",
+      "server_name": "ABIT- IG-81 Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR400X64C3A/128",
+          "KVR400X64C3A/1G",
+          "KVR400X64C3A/256",
+          "KVR400X64C3A/512",
+          "KVR400X64C3AK2/1G",
+          "KVR400X64C3AK2/256",
+          "KVR400X64C3AK2/2G",
+          "KVR400X64C3AK2/512"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/20379/abit-kv-80-motherboard",
+      "server_name": "ABIT- KV-80 Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR333X64C25/128",
+          "KVR333X64C25/1G",
+          "KVR333X64C25/256",
+          "KVR333X64C25/512",
+          "KVR333X72C25/1G",
+          "KVR333X72C25/256",
+          "KVR333X72C25/512",
+          "KVR400X64C3A/128",
+          "KVR400X64C3A/1G",
+          "KVR400X64C3A/256",
+          "KVR400X64C3A/512",
+          "KVR400X72C3A/1G",
+          "KVR400X72C3A/256",
+          "KVR400X72C3A/512"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/20381/abit-va-20-motherboard",
+      "server_name": "ABIT- VA-20 Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR333X64C25/128",
+          "KVR333X64C25/1G",
+          "KVR333X64C25/256",
+          "KVR333X64C25/512",
+          "KVR400X64C3A/128",
+          "KVR400X64C3A/1G",
+          "KVR400X64C3A/256",
+          "KVR400X64C3A/512"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/20367/abit-fatal1ty-aa8xe-motherboard",
+      "server_name": "ABIT- Fatal1ty-AA8XE Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR533D2N4/1G",
+          "KVR533D2N4/256",
+          "KVR533D2N4/512",
+          "KVR533D2N4K2/1G",
+          "KVR533D2N4K2/2G",
+          "KVR533D2N4K2/512"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/20370/abit-ig-80-motherboard",
+      "server_name": "ABIT- IG-80 Motherboard",
+      "unreachable": true,
+      "failure_type": "Blocked",
+      "reason": "Bot-check / CAPTCHA interstitial returned instead of page content"
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/20517/abit-su-2s-motherboard",
+      "server_name": "ABIT- SU-2S Motherboard",
+      "unreachable": true,
+      "failure_type": "Blocked",
+      "reason": "Bot-check / CAPTCHA interstitial returned instead of page content"
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/19457/abit-av8-3rd-eye-motherboard",
+      "server_name": "ABIT- AV8-3rd Eye Motherboard",
+      "unreachable": true,
+      "failure_type": "Blocked",
+      "reason": "Bot-check / CAPTCHA interstitial returned instead of page content"
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/19458/abit-ag8-3rd-eye-motherboard",
+      "server_name": "ABIT- AG8-3rd Eye Motherboard",
+      "unreachable": true,
+      "failure_type": "Blocked",
+      "reason": "Bot-check / CAPTCHA interstitial returned instead of page content"
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/19394/abit-av8-motherboard",
+      "server_name": "ABIT- AV8 Motherboard",
+      "unreachable": true,
+      "failure_type": "Blocked",
+      "reason": "Bot-check / CAPTCHA interstitial returned instead of page content"
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/19208/abit-ag8-motherboard",
+      "server_name": "ABIT- AG8 Motherboard",
+      "unreachable": true,
+      "failure_type": "Blocked",
+      "reason": "Bot-check / CAPTCHA interstitial returned instead of page content"
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/19209/abit-ag8-pro-motherboard",
+      "server_name": "ABIT- AG8 Pro Motherboard",
+      "unreachable": true,
+      "failure_type": "Blocked",
+      "reason": "Bot-check / CAPTCHA interstitial returned instead of page content"
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/19080/abit-as8-motherboard",
+      "server_name": "ABIT- AS8 Motherboard",
+      "unreachable": true,
+      "failure_type": "Blocked",
+      "reason": "Bot-check / CAPTCHA interstitial returned instead of page content"
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/17493/abit-vt7-motherboard",
+      "server_name": "ABIT- VT7 Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR266X64C25/128",
+          "KVR266X64C25/1G",
+          "KVR266X64C25/256",
+          "KVR266X64C25/512",
+          "KVR333X64C25/128",
+          "KVR333X64C25/1G",
+          "KVR333X64C25/256",
+          "KVR333X64C25/512",
+          "KVR400X64C25/256",
+          "KVR400X64C25/512"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/18476/abit-is-20-motherboard",
+      "server_name": "ABIT- IS-20 Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR266X64C25/128",
+          "KVR266X64C25/1G",
+          "KVR266X64C25/256",
+          "KVR266X64C25/512",
+          "KVR333X64C25/128",
+          "KVR333X64C25/1G",
+          "KVR333X64C25/256",
+          "KVR333X64C25/512",
+          "KVR333X64C25K2/1G",
+          "KVR333X64C25K2/256",
+          "KVR333X64C25K2/2G",
+          "KVR333X64C25K2/512",
+          "KVR400X64C3/256",
+          "KVR400X64C3/512",
+          "KVR400X64C3A/128",
+          "KVR400X64C3A/1G",
+          "KVR400X64C3A/256",
+          "KVR400X64C3A/512",
+          "KVR400X64C3AK2/1G",
+          "KVR400X64C3AK2/256",
+          "KVR400X64C3AK2/2G",
+          "KVR400X64C3AK2/512"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/18477/abit-is7-v2-motherboard",
+      "server_name": "ABIT- IS7-V2 Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR400X64C3/256",
+          "KVR400X64C3/512",
+          "KVR400X64C3A/128",
+          "KVR400X64C3A/1G",
+          "KVR400X64C3A/256",
+          "KVR400X64C3A/512"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/17673/abit-is7-e2-motherboard",
+      "server_name": "ABIT- IS7-E2 Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR266X64C25/128",
+          "KVR266X64C25/1G",
+          "KVR266X64C25/256",
+          "KVR266X64C25/512",
+          "KVR333X64C25/128",
+          "KVR333X64C25/1G",
+          "KVR333X64C25/256",
+          "KVR333X64C25/512",
+          "KVR333X64C25K2/1G",
+          "KVR333X64C25K2/256",
+          "KVR333X64C25K2/2G",
+          "KVR333X64C25K2/512",
+          "KVR400X64C3/256",
+          "KVR400X64C3/512",
+          "KVR400X64C3A/128",
+          "KVR400X64C3A/1G",
+          "KVR400X64C3A/256",
+          "KVR400X64C3A/512",
+          "KVR400X64C3AK2/1G",
+          "KVR400X64C3AK2/256",
+          "KVR400X64C3AK2/2G",
+          "KVR400X64C3AK2/512"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/17674/abit-sg-72-motherboard",
+      "server_name": "ABIT- SG-72 Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR266X64C25/128",
+          "KVR266X64C25/1G",
+          "KVR266X64C25/256",
+          "KVR266X64C25/512",
+          "KVR333X64C25/128",
+          "KVR333X64C25/1G",
+          "KVR333X64C25/256",
+          "KVR333X64C25/512",
+          "KVR400X64C3A/128",
+          "KVR400X64C3A/1G",
+          "KVR400X64C3A/256",
+          "KVR400X64C3A/512"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/17428/abit-ib-10-motherboard",
+      "server_name": "ABIT- IB-10 Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR266X64C25/128",
+          "KVR266X64C25/1G",
+          "KVR266X64C25/256",
+          "KVR266X64C25/512",
+          "KVR333X64C25/128",
+          "KVR333X64C25/1G",
+          "KVR333X64C25/256",
+          "KVR333X64C25/512"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/16834/abit-is-10-motherboard",
+      "server_name": "ABIT- IS-10 Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR266X64C25/128",
+          "KVR266X64C25/1G",
+          "KVR266X64C25/256",
+          "KVR266X64C25/512",
+          "KVR333X64C25/128",
+          "KVR333X64C25/1G",
+          "KVR333X64C25/256",
+          "KVR333X64C25/512",
+          "KVR333X64C25K2/1G",
+          "KVR333X64C25K2/256",
+          "KVR333X64C25K2/2G",
+          "KVR333X64C25K2/512",
+          "KVR400X64C3/256",
+          "KVR400X64C3/512",
+          "KVR400X64C3A/128",
+          "KVR400X64C3A/1G",
+          "KVR400X64C3A/256",
+          "KVR400X64C3A/512",
+          "KVR400X64C3AK2/1G",
+          "KVR400X64C3AK2/256",
+          "KVR400X64C3AK2/2G",
+          "KVR400X64C3AK2/512"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/16836/abit-is-11-motherboard",
+      "server_name": "ABIT- IS-11 Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR266X64C25/128",
+          "KVR266X64C25/1G",
+          "KVR266X64C25/256",
+          "KVR266X64C25/512",
+          "KVR333X64C25/128",
+          "KVR333X64C25/1G",
+          "KVR333X64C25/256",
+          "KVR333X64C25/512",
+          "KVR333X64C25K2/1G",
+          "KVR333X64C25K2/256",
+          "KVR333X64C25K2/2G",
+          "KVR333X64C25K2/512",
+          "KVR400X64C3/256",
+          "KVR400X64C3/512",
+          "KVR400X64C3A/128",
+          "KVR400X64C3A/1G",
+          "KVR400X64C3A/256",
+          "KVR400X64C3A/512",
+          "KVR400X64C3AK2/1G",
+          "KVR400X64C3AK2/256",
+          "KVR400X64C3AK2/2G",
+          "KVR400X64C3AK2/512"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/16837/abit-is-12-motherboard",
+      "server_name": "ABIT- IS-12 Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR266X64C25/128",
+          "KVR266X64C25/1G",
+          "KVR266X64C25/256",
+          "KVR266X64C25/512",
+          "KVR333X64C25/128",
+          "KVR333X64C25/1G",
+          "KVR333X64C25/256",
+          "KVR333X64C25/512",
+          "KVR333X64C25K2/1G",
+          "KVR333X64C25K2/256",
+          "KVR333X64C25K2/2G",
+          "KVR333X64C25K2/512",
+          "KVR400X64C3/256",
+          "KVR400X64C3/512",
+          "KVR400X64C3A/128",
+          "KVR400X64C3A/1G",
+          "KVR400X64C3A/256",
+          "KVR400X64C3A/512",
+          "KVR400X64C3AK2/1G",
+          "KVR400X64C3AK2/256",
+          "KVR400X64C3AK2/2G",
+          "KVR400X64C3AK2/512"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/16843/abit-ai7-motherboard",
+      "server_name": "ABIT- AI7 Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR400X64C3A/128",
+          "KVR400X64C3A/1G",
+          "KVR400X64C3A/256",
+          "KVR400X64C3A/512",
+          "KVR400X64C3AK2/1G",
+          "KVR400X64C3AK2/256",
+          "KVR400X64C3AK2/2G",
+          "KVR400X64C3AK2/512"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/16845/abit-ic7-max3-motherboard",
+      "server_name": "ABIT- IC7-MAX3 Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR266X64C25/128",
+          "KVR266X64C25/1G",
+          "KVR266X64C25/256",
+          "KVR266X64C25/512",
+          "KVR333X64C25/128",
+          "KVR333X64C25/1G",
+          "KVR333X64C25/256",
+          "KVR333X64C25/512",
+          "KVR333X64C25K2/1G",
+          "KVR333X64C25K2/256",
+          "KVR333X64C25K2/2G",
+          "KVR333X64C25K2/512",
+          "KVR333X72C25/1G",
+          "KVR333X72C25/256",
+          "KVR333X72C25/512",
+          "KVR400X64C3/256",
+          "KVR400X64C3/512",
+          "KVR400X64C3A/128",
+          "KVR400X64C3A/1G",
+          "KVR400X64C3A/256",
+          "KVR400X64C3A/512",
+          "KVR400X64C3AK2/1G",
+          "KVR400X64C3AK2/256",
+          "KVR400X64C3AK2/2G",
+          "KVR400X64C3AK2/512",
+          "KVR400X72C3/256",
+          "KVR400X72C3/512",
+          "KVR400X72C3A/1G",
+          "KVR400X72C3A/256",
+          "KVR400X72C3A/512"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/16631/abit-digidice-mini-pc",
+      "server_name": "ABIT- DiGiDice Mini PC",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR266X64C25/128",
+          "KVR266X64C25/1G",
+          "KVR266X64C25/256",
+          "KVR266X64C25/512",
+          "KVR333X64C25/128",
+          "KVR333X64C25/1G",
+          "KVR333X64C25/256",
+          "KVR333X64C25/512",
+          "KVR333X64C25K2/1G",
+          "KVR333X64C25K2/256",
+          "KVR333X64C25K2/2G",
+          "KVR333X64C25K2/512",
+          "KVR400X64C3/256",
+          "KVR400X64C3/512",
+          "KVR400X64C3A/128",
+          "KVR400X64C3A/1G",
+          "KVR400X64C3A/256",
+          "KVR400X64C3A/512",
+          "KVR400X64C3AK2/1G",
+          "KVR400X64C3AK2/256",
+          "KVR400X64C3AK2/2G",
+          "KVR400X64C3AK2/512"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/16620/abit-vi7-motherboard",
+      "server_name": "ABIT- VI7 Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR266X64C25/128",
+          "KVR266X64C25/1G",
+          "KVR266X64C25/256",
+          "KVR266X64C25/512",
+          "KVR333X64C25/128",
+          "KVR333X64C25/1G",
+          "KVR333X64C25/256",
+          "KVR333X64C25/512",
+          "KVR400X64C3A/128",
+          "KVR400X64C3A/1G",
+          "KVR400X64C3A/256",
+          "KVR400X64C3A/512"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/16547/abit-is7-m-motherboard",
+      "server_name": "ABIT- IS7-M Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR400X64C3A/128",
+          "KVR400X64C3A/1G",
+          "KVR400X64C3A/256",
+          "KVR400X64C3A/512",
+          "KVR400X64C3AK2/1G",
+          "KVR400X64C3AK2/256",
+          "KVR400X64C3AK2/2G",
+          "KVR400X64C3AK2/512"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/16024/abit-ab-5200-server",
+      "server_name": "ABIT- AB-5200 Server",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR266X72RC25/1024",
+          "KVR266X72RC25/128",
+          "KVR266X72RC25/256",
+          "KVR266X72RC25/2G",
+          "KVR266X72RC25/512"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/16025/abit-ab-5250-server",
+      "server_name": "ABIT- AB-5250 Server",
+      "unreachable": true,
+      "failure_type": "Blocked",
+      "reason": "Bot-check / CAPTCHA interstitial returned instead of page content"
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/14736/abit-ic7-g-motherboard",
+      "server_name": "ABIT- IC7-G Motherboard",
+      "unreachable": true,
+      "failure_type": "Blocked",
+      "reason": "Bot-check / CAPTCHA interstitial returned instead of page content"
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/14379/abit-bh7-motherboard",
+      "server_name": "ABIT- BH7 Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR266X64C25/128",
+          "KVR266X64C25/1G",
+          "KVR266X64C25/256",
+          "KVR266X64C25/512",
+          "KVR333X64C25/128",
+          "KVR333X64C25/1G",
+          "KVR333X64C25/256",
+          "KVR333X64C25/512"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/13840/abit-vh6-ii-motherboard",
+      "server_name": "ABIT- VH6-II Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR133X64C3/128",
+          "KVR133X64C3/256",
+          "KVR133X64C3/512",
+          "KVR133X64C3/64",
+          "KVR133X72C3/128",
+          "KVR133X72C3/256",
+          "KVR133X72C3/512",
+          "KVR133X72C3/64"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/13841/abit-st6-st6-raid-motherboard",
+      "server_name": "ABIT- ST6/ST6-RAID Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR133X64C3/128",
+          "KVR133X64C3/256",
+          "KVR133X64C3/64",
+          "KVR133X64C3SS/128",
+          "KVR133X64C3SS/256"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/13842/abit-sa6-motherboard",
+      "server_name": "ABIT- SA6 Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR133X64C3/128",
+          "KVR133X64C3/256",
+          "KVR133X64C3/64",
+          "KVR133X64C3SS/128",
+          "KVR133X64C3SS/256"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/13843/abit-be7-b-be7-g-be7-s-motherboard",
+      "server_name": "ABIT- BE7-B/BE7-G/BE7-S Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR266X64C25/128",
+          "KVR266X64C25/1G",
+          "KVR266X64C25/256",
+          "KVR266X64C25/512",
+          "KVR333X64C25/128",
+          "KVR333X64C25/1G",
+          "KVR333X64C25/256",
+          "KVR333X64C25/512"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/13844/abit-si-2p-motherboard",
+      "server_name": "ABIT- SI-2P+ Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR266X72RC25/1024",
+          "KVR266X72RC25/128",
+          "KVR266X72RC25/256",
+          "KVR266X72RC25/2G",
+          "KVR266X72RC25/512"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/13845/abit-si-2pa-motherboard",
+      "server_name": "ABIT- SI-2Pa Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR266X72RC25/1024",
+          "KVR266X72RC25/128",
+          "KVR266X72RC25/256",
+          "KVR266X72RC25/2G",
+          "KVR266X72RC25/512"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/13846/abit-si-1n-si-1na-motherboard",
+      "server_name": "ABIT- SI-1N/SI-1Na Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR266X64C25/128",
+          "KVR266X64C25/1G",
+          "KVR266X64C25/256",
+          "KVR266X64C25/512"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/13232/abit-nf7-nf7-m-motherboard",
+      "server_name": "ABIT- NF7/NF7-M Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR266X64C25/128",
+          "KVR266X64C25/1G",
+          "KVR266X64C25/256",
+          "KVR266X64C25/512",
+          "KVR333X64C25/128",
+          "KVR333X64C25/1G",
+          "KVR333X64C25/256",
+          "KVR333X64C25/512",
+          "KVR400X64C3A/128",
+          "KVR400X64C3A/1G",
+          "KVR400X64C3A/256",
+          "KVR400X64C3A/512"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/13233/abit-nv7-133r-motherboard",
+      "server_name": "ABIT- NV7-133R Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR266X64C25/128",
+          "KVR266X64C25/256",
+          "KVR266X64C25/512"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/13234/abit-kx7-333-kx7-333r-motherboard",
+      "server_name": "ABIT- KX7-333/KX7-333R Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR266X64C25/128",
+          "KVR266X64C25/1G",
+          "KVR266X64C25/256",
+          "KVR266X64C25/512",
+          "KVR266X72RC25/1GD",
+          "KVR266X72RC25/512D",
+          "KVR333X64C25/128",
+          "KVR333X64C25/1G",
+          "KVR333X64C25/256",
+          "KVR333X64C25/512"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/13235/abit-at7-max2-xp-motherboard",
+      "server_name": "ABIT- AT7 MAX2/XP Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR266X64C25/128",
+          "KVR266X64C25/1G",
+          "KVR266X64C25/256",
+          "KVR266X64C25/512",
+          "KVR333X64C25/128",
+          "KVR333X64C25/1G",
+          "KVR333X64C25/256",
+          "KVR333X64C25/512",
+          "KVR400X64C3A/128",
+          "KVR400X64C3A/1G",
+          "KVR400X64C3A/256",
+          "KVR400X64C3A/512"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/13236/abit-kd7-e-motherboard",
+      "server_name": "ABIT- KD7-E Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR266X64C25/128",
+          "KVR266X64C25/1G",
+          "KVR266X64C25/256",
+          "KVR266X64C25/512",
+          "KVR266X72RC25/1GD",
+          "KVR266X72RC25/512D",
+          "KVR333X64C25/128",
+          "KVR333X64C25/1G",
+          "KVR333X64C25/256",
+          "KVR333X64C25/512"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/13217/abit-sg-71-motherboard",
+      "server_name": "ABIT- SG-71 Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR266X64C25/128",
+          "KVR266X64C25/1G",
+          "KVR266X64C25/256",
+          "KVR266X64C25/512",
+          "KVR333X64C25/128",
+          "KVR333X64C25/1G",
+          "KVR333X64C25/256",
+          "KVR333X64C25/512"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/13219/abit-bd7-bd7m-bd7-raid-motherboard",
+      "server_name": "ABIT- BD7/BD7m/BD7-RAID Motherboard",
+      "unreachable": true,
+      "failure_type": "Blocked",
+      "reason": "Bot-check / CAPTCHA interstitial returned instead of page content"
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/13220/abit-bg-71-motherboard",
+      "server_name": "ABIT- BG-71 Motherboard",
+      "unreachable": true,
+      "failure_type": "Blocked",
+      "reason": "Bot-check / CAPTCHA interstitial returned instead of page content"
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/13221/abit-kg7-lite-motherboard",
+      "server_name": "ABIT- KG7-Lite Motherboard",
+      "unreachable": true,
+      "failure_type": "Blocked",
+      "reason": "Bot-check / CAPTCHA interstitial returned instead of page content"
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/13222/abit-it7-max2-it7-max2-xp",
+      "server_name": "ABIT- IT7-MAX2 / IT7-MAX2/XP",
+      "unreachable": true,
+      "failure_type": "Blocked",
+      "reason": "Bot-check / CAPTCHA interstitial returned instead of page content"
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/13223/abit-bg7e-motherboard",
+      "server_name": "ABIT- BG7E Motherboard",
+      "unreachable": true,
+      "failure_type": "Blocked",
+      "reason": "Bot-check / CAPTCHA interstitial returned instead of page content"
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/12337/abit-at7-motherboard",
+      "server_name": "ABIT- AT7 Motherboard",
+      "unreachable": true,
+      "failure_type": "Blocked",
+      "reason": "Bot-check / CAPTCHA interstitial returned instead of page content"
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/12267/abit-bd7ii-bd7ii-raid-motherboard",
+      "server_name": "ABIT- BD7II/ BD7II RAID Motherboard",
+      "unreachable": true,
+      "failure_type": "Blocked",
+      "reason": "Bot-check / CAPTCHA interstitial returned instead of page content"
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/12269/abit-bg7-motherboard",
+      "server_name": "ABIT- BG7 Motherboard",
+      "unreachable": true,
+      "failure_type": "Blocked",
+      "reason": "Bot-check / CAPTCHA interstitial returned instead of page content"
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/12270/abit-it7-motherboard",
+      "server_name": "ABIT- IT7 Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR266X64C25/128",
+          "KVR266X64C25/1G",
+          "KVR266X64C25/256",
+          "KVR266X64C25/512",
+          "KVR266X72C25/128",
+          "KVR266X72C25/1G",
+          "KVR266X72C25/256",
+          "KVR266X72C25/512"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/12220/abit-kr7a-133r-ata133-motherboard",
+      "server_name": "ABIT- KR7A-133R (ATA133) Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR266X64C25/128",
+          "KVR266X64C25/1G",
+          "KVR266X64C25/256",
+          "KVR266X64C25/512"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/11403/abit-bw7-bw7-raid-bl7-bl7-raid-motherboards",
+      "server_name": "ABIT- BW7/BW7-RAID/BL7/BL7-RAID Motherboards",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR133X64C3/128",
+          "KVR133X64C3/1G",
+          "KVR133X64C3/256",
+          "KVR133X64C3/512",
+          "KVR133X72C3/128",
+          "KVR133X72C3/256",
+          "KVR133X72C3/512"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/11439/abit-kr7a-raid-motherboard",
+      "server_name": "ABIT- KR7A - RAID Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR266X64C25/128",
+          "KVR266X64C25/1G",
+          "KVR266X64C25/256",
+          "KVR266X64C25/512",
+          "KVR266X72C25/128",
+          "KVR266X72C25/1G",
+          "KVR266X72C25/256",
+          "KVR266X72C25/512"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/9783/abit-bm6-motherboard",
+      "server_name": "ABIT- BM6 Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR100X64C2/128",
+          "KVR100X64C2/256",
+          "KVR100X64C2/64",
+          "KVR100X72C2/128",
+          "KVR100X72C2/256",
+          "KVR100X72C2/64"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/9784/abit-bh6-motherboard",
+      "server_name": "ABIT- BH6 Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR100X64C2/128",
+          "KVR100X64C2/256",
+          "KVR100X64C2/64",
+          "KVR100X72C2/128",
+          "KVR100X72C2/256",
+          "KVR100X72C2/64"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/9785/abit-vh6-motherboard",
+      "server_name": "ABIT- VH6 Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR133X64C3/128",
+          "KVR133X64C3/256",
+          "KVR133X64C3/512",
+          "KVR133X64C3/64",
+          "KVR133X72C3/128",
+          "KVR133X72C3/256",
+          "KVR133X72C3/512",
+          "KVR133X72C3/64"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/9786/abit-se6-motherboard",
+      "server_name": "ABIT- SE6 Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR133X64C3/128",
+          "KVR133X64C3/256",
+          "KVR133X64C3/64",
+          "KVR133X64C3SS/128",
+          "KVR133X64C3SS/256"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/9787/abit-lx6-motherboard",
+      "server_name": "ABIT- LX6 Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR66X64/128",
+          "KVR66X64/64",
+          "KVR66X72/128",
+          "KVR66X72/64"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/9788/abit-ka7-motherboard",
+      "server_name": "ABIT- KA7 Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR133X64C3/128",
+          "KVR133X64C3/256",
+          "KVR133X64C3/512",
+          "KVR133X64C3/64",
+          "KVR133X72C3/128",
+          "KVR133X72C3/256",
+          "KVR133X72C3/512",
+          "KVR133X72C3/64"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/9789/abit-vt6x4-motherboard",
+      "server_name": "ABIT- VT6X4 Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR133X64C3/128",
+          "KVR133X64C3/256",
+          "KVR133X64C3/512",
+          "KVR133X64C3/64",
+          "KVR133X72C3/128",
+          "KVR133X72C3/256",
+          "KVR133X72C3/512",
+          "KVR133X72C3/64"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/10142/abit-vl6-motherboard",
+      "server_name": "ABIT- VL6 Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR133X64C3/128",
+          "KVR133X64C3/256",
+          "KVR133X64C3/512",
+          "KVR133X64C3/64",
+          "KVR133X72C3/128",
+          "KVR133X72C3/256",
+          "KVR133X72C3/512",
+          "KVR133X72C3/64"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/10143/abit-sl6-motherboard",
+      "server_name": "ABIT- SL6 Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR133X64C3/128",
+          "KVR133X64C3/256",
+          "KVR133X64C3/64",
+          "KVR133X64C3SS/128",
+          "KVR133X64C3SS/256"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/10147/abit-bx6-2-0-motherboard",
+      "server_name": "ABIT- BX6 2.0 Motherboard",
+      "unreachable": true,
+      "failure_type": "Blocked",
+      "reason": "Bot-check / CAPTCHA interstitial returned instead of page content"
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/10149/abit-bx6-motherboard",
+      "server_name": "ABIT- BX6 Motherboard",
+      "unreachable": true,
+      "failure_type": "Blocked",
+      "reason": "Bot-check / CAPTCHA interstitial returned instead of page content"
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/10151/abit-ah6-motherboard",
+      "server_name": "ABIT- AH6 Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR66X64/128",
+          "KVR66X64/64",
+          "KVR66X72/128",
+          "KVR66X72/64"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/10152/abit-sa6r-motherboard",
+      "server_name": "ABIT- SA6R Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR133X64C3/128",
+          "KVR133X64C3/256",
+          "KVR133X64C3/64",
+          "KVR133X64C3SS/128",
+          "KVR133X64C3SS/256"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/10153/abit-sh6-motherboard",
+      "server_name": "ABIT- SH6 Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR133X64C3/128",
+          "KVR133X64C3/256",
+          "KVR133X64C3/64",
+          "KVR133X64C3SS/128",
+          "KVR133X64C3SS/256"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/13224/abit-be7-be7-raid-motherboard",
+      "server_name": "ABIT- BE7/BE7-RAID Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR266X64C25/128",
+          "KVR266X64C25/1G",
+          "KVR266X64C25/256",
+          "KVR266X64C25/512",
+          "KVR333X64C25/128",
+          "KVR333X64C25/1G",
+          "KVR333X64C25/256",
+          "KVR333X64C25/512"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/19976/abit-as8-v-motherboard",
+      "server_name": "ABIT- AS8-V Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR400X64C3A/128",
+          "KVR400X64C3A/1G",
+          "KVR400X64C3A/256",
+          "KVR400X64C3A/512",
+          "KVR400X64C3AK2/1G",
+          "KVR400X64C3AK2/256",
+          "KVR400X64C3AK2/2G",
+          "KVR400X64C3AK2/512"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/13848/abit-kd7-b-kd7-g-kd7-s-motherboard",
+      "server_name": "ABIT- KD7-B/KD7-G/KD7-S Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR266X64C25/128",
+          "KVR266X64C25/1G",
+          "KVR266X64C25/256",
+          "KVR266X64C25/512",
+          "KVR333X64C25/128",
+          "KVR333X64C25/1G",
+          "KVR333X64C25/256",
+          "KVR333X64C25/512",
+          "KVR400X64C25/256",
+          "KVR400X64C25/512"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/15665/abit-is7-is7-e-motherboards",
+      "server_name": "ABIT- IS7/IS7-E Motherboards",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR400X64C3A/128",
+          "KVR400X64C3A/1G",
+          "KVR400X64C3A/256",
+          "KVR400X64C3A/512",
+          "KVR400X64C3AK2/1G",
+          "KVR400X64C3AK2/256",
+          "KVR400X64C3AK2/2G",
+          "KVR400X64C3AK2/512"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/model/16951/abit-nf7-s-version-1-0-motherboard",
+      "server_name": "ABIT- NF7-S (version 1.0) Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR266X64C25/128",
+          "KVR266X64C25/1G",
+          "KVR266X64C25/256",
+          "KVR266X64C25/512",
+          "KVR333X64C25/128",
+          "KVR333X64C25/1G",
+          "KVR333X64C25/256",
+          "KVR333X64C25/512",
+          "KVR333X64C25K2/1G",
+          "KVR333X64C25K2/256",
+          "KVR333X64C25K2/2G",
+          "KVR333X64C25K2/512"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/model/35407/abit-lg-95z-motherboard",
+      "server_name": "ABIT- LG-95Z Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR533D2N4/1G",
+          "KVR533D2N4/256",
+          "KVR533D2N4/512",
+          "KVR533D2N4K2/1G",
+          "KVR533D2N4K2/2G",
+          "KVR533D2N4K2/512"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/17430/abit-ib-11-motherboard",
+      "server_name": "ABIT- IB-11 Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR266X64C25/128",
+          "KVR266X64C25/1G",
+          "KVR266X64C25/256",
+          "KVR266X64C25/512",
+          "KVR333X64C25/128",
+          "KVR333X64C25/1G",
+          "KVR333X64C25/256",
+          "KVR333X64C25/512"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/17236/abit-an7-motherboard",
+      "server_name": "ABIT- AN7 Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR266X64C25/128",
+          "KVR266X64C25/1G",
+          "KVR266X64C25/256",
+          "KVR266X64C25/512",
+          "KVR333X64C25/128",
+          "KVR333X64C25/1G",
+          "KVR333X64C25/256",
+          "KVR333X64C25/512",
+          "KVR400X64C3A/1G",
+          "KVR400X64C3A/256",
+          "KVR400X64C3A/512",
+          "KVR400X64C3AK2/1G",
+          "KVR400X64C3AK2/2G",
+          "KVR400X64C3AK2/512"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/19977/abit-as8-3rd-eye-motherboard",
+      "server_name": "ABIT- AS8-3rd Eye Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR400X64C3A/128",
+          "KVR400X64C3A/1G",
+          "KVR400X64C3A/256",
+          "KVR400X64C3A/512",
+          "KVR400X64C3AK2/1G",
+          "KVR400X64C3AK2/256",
+          "KVR400X64C3AK2/2G",
+          "KVR400X64C3AK2/512"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/model/33763/abit-il9-pro-motherboard",
+      "server_name": "ABIT- IL9 Pro Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR667D2N5/1G",
+          "KVR667D2N5/256",
+          "KVR667D2N5/512",
+          "KVR667D2N5K2/1G",
+          "KVR667D2N5K2/2G",
+          "KVR667D2N5K2/512"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/10140/abit-vp6-motherboard",
+      "server_name": "ABIT- VP6 Motherboard",
+      "unreachable": true,
+      "failure_type": "Blocked",
+      "reason": "Bot-check / CAPTCHA interstitial returned instead of page content"
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/25200/abit-is7-e2g-motherboard",
+      "server_name": "ABIT- IS7-E2G Motherboard",
+      "unreachable": true,
+      "failure_type": "Blocked",
+      "reason": "Bot-check / CAPTCHA interstitial returned instead of page content"
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/15423/abit-is7-g-motherboard",
+      "server_name": "ABIT- IS7-G Motherboard",
+      "unreachable": true,
+      "failure_type": "Blocked",
+      "reason": "Bot-check / CAPTCHA interstitial returned instead of page content"
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/model/43050/abit-i-45d-motherboard",
+      "server_name": "ABIT- I-45D Motherboard",
+      "unreachable": true,
+      "failure_type": "Blocked",
+      "reason": "Bot-check / CAPTCHA interstitial returned instead of page content"
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/9793/abit-cx6-motherboard",
+      "server_name": "ABIT- CX6 Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR800X16-16/512",
+          "KVR800X16/128",
+          "KVR800X16/256"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/17152/abit-va-11-motherboard",
+      "server_name": "ABIT- VA-11 Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR266X64C25/128",
+          "KVR266X64C25/1G",
+          "KVR266X64C25/256",
+          "KVR266X64C25/512",
+          "KVR333X64C25/128",
+          "KVR333X64C25/1G",
+          "KVR333X64C25/256",
+          "KVR333X64C25/512"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/model/34559/abit-ab9-quadgt-motherboard",
+      "server_name": "ABIT- AB9 QuadGT Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR533D2N4/1G",
+          "KVR533D2N4/256",
+          "KVR533D2N4/2G",
+          "KVR533D2N4/512",
+          "KVR533D2N4K2/1G",
+          "KVR533D2N4K2/2G",
+          "KVR533D2N4K2/4G",
+          "KVR533D2N4K2/512",
+          "KVR667D2N5/1G",
+          "KVR667D2N5/256",
+          "KVR667D2N5/2G",
+          "KVR667D2N5/512",
+          "KVR667D2N5K2/1G",
+          "KVR667D2N5K2/2G",
+          "KVR667D2N5K2/4G",
+          "KVR667D2N5K2/512",
+          "KVR800D2N6/1G",
+          "KVR800D2N6/2G",
+          "KVR800D2N6/512",
+          "KVR800D2N6K2/1G",
+          "KVR800D2N6K2/2G",
+          "KVR800D2N6K2/4G"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/15421/abit-ic7-motherboard",
+      "server_name": "ABIT- IC7 Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR266X64C25/128",
+          "KVR266X64C25/1G",
+          "KVR266X64C25/256",
+          "KVR266X64C25/512",
+          "KVR333X64C25/128",
+          "KVR333X64C25/1G",
+          "KVR333X64C25/256",
+          "KVR333X64C25/512",
+          "KVR333X64C25K2/1G",
+          "KVR333X64C25K2/256",
+          "KVR333X64C25K2/2G",
+          "KVR333X64C25K2/512",
+          "KVR333X72C25/1G",
+          "KVR333X72C25/256",
+          "KVR333X72C25/512",
+          "KVR400X64C3/256",
+          "KVR400X64C3/512",
+          "KVR400X64C3A/128",
+          "KVR400X64C3A/1G",
+          "KVR400X64C3A/256",
+          "KVR400X64C3A/512",
+          "KVR400X64C3AK2/1G",
+          "KVR400X64C3AK2/256",
+          "KVR400X64C3AK2/2G",
+          "KVR400X64C3AK2/512",
+          "KVR400X72C3/256",
+          "KVR400X72C3/512",
+          "KVR400X72C3A/1G",
+          "KVR400X72C3A/256",
+          "KVR400X72C3A/512"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/model/24317/abit-lp-80-motherboard",
+      "server_name": "ABIT- LP-80 Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR533D2N4/1G",
+          "KVR533D2N4/256",
+          "KVR533D2N4/512",
+          "KVR533D2N4K2/1G",
+          "KVR533D2N4K2/2G",
+          "KVR533D2N4K2/512",
+          "KVR667D2N5/1G",
+          "KVR667D2N5/256",
+          "KVR667D2N5/512",
+          "KVR667D2N5K2/1G",
+          "KVR667D2N5K2/2G",
+          "KVR667D2N5K2/512"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/model/24322/abit-nf8-v2-motherboard",
+      "server_name": "ABIT- NF8-V2 Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR400X64C3A/128",
+          "KVR400X64C3A/1G",
+          "KVR400X64C3A/256",
+          "KVR400X64C3A/512"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/13627/abit-vh6t-motherboard",
+      "server_name": "ABIT- VH6T Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR133X64C3/128",
+          "KVR133X64C3/256",
+          "KVR133X64C3/512",
+          "KVR133X64C3/64",
+          "KVR133X72C3/128",
+          "KVR133X72C3/256",
+          "KVR133X72C3/512",
+          "KVR133X72C3/64"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/9778/abit-bx133-raid-motherboard",
+      "server_name": "ABIT- BX133-RAID Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR100X64C2/128",
+          "KVR100X64C2/256",
+          "KVR100X64C2/64",
+          "KVR100X72C2/128",
+          "KVR100X72C2/256",
+          "KVR100X72C2/64"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/16998/abit-is7-v-motherboard",
+      "server_name": "ABIT- IS7-V Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR400X64C3/256",
+          "KVR400X64C3/512",
+          "KVR400X64C3A/128",
+          "KVR400X64C3A/1G",
+          "KVR400X64C3A/256",
+          "KVR400X64C3A/512"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/model/43052/abit-an52-v2-0-motherboard",
+      "server_name": "ABIT- AN52 V2.0 Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR800D2E6/1G",
+          "KVR800D2E6/2G",
+          "KVR800D2E6/512",
+          "KVR800D2E6K2/1G",
+          "KVR800D2E6K2/2G",
+          "KVR800D2E6K2/4G",
+          "KVR800D2N6/1G",
+          "KVR800D2N6/2G",
+          "KVR800D2N6/512",
+          "KVR800D2N6K2/1G",
+          "KVR800D2N6K2/2G",
+          "KVR800D2N6K2/4G"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/22328/abit-an8-motherboard",
+      "server_name": "ABIT- AN8 Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR266X64C25/128",
+          "KVR266X64C25/1G",
+          "KVR266X64C25/256",
+          "KVR266X64C25/512",
+          "KVR333X64C25/128",
+          "KVR333X64C25/1G",
+          "KVR333X64C25/256",
+          "KVR333X64C25/512",
+          "KVR333X64C25K2/1G",
+          "KVR333X64C25K2/256",
+          "KVR333X64C25K2/2G",
+          "KVR333X64C25K2/512",
+          "KVR400X64C3A/128",
+          "KVR400X64C3A/1G",
+          "KVR400X64C3A/256",
+          "KVR400X64C3A/512",
+          "KVR400X64C3AK2/1G",
+          "KVR400X64C3AK2/256",
+          "KVR400X64C3AK2/2G",
+          "KVR400X64C3AK2/512"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/13477/abit-kt7a-raid-motherboard",
+      "server_name": "ABIT- KT7A-RAID Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR133X64C3/128",
+          "KVR133X64C3/256",
+          "KVR133X64C3/512",
+          "KVR133X64C3/64"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/model/25885/abit-nv8-motherboard",
+      "server_name": "ABIT- NV8 Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR400X64C3A/128",
+          "KVR400X64C3A/1G",
+          "KVR400X64C3A/256",
+          "KVR400X64C3A/512"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/model/19459/abit-aa8-3rd-eye-motherboard",
+      "server_name": "ABIT- AA8-3rd Eye Motherboard",
+      "unreachable": true,
+      "failure_type": "Blocked",
+      "reason": "Bot-check / CAPTCHA interstitial returned instead of page content"
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/model/42703/abit-i-n73h-motherboard",
+      "server_name": "ABIT- I-N73H Motherboard",
+      "unreachable": true,
+      "failure_type": "Blocked",
+      "reason": "Bot-check / CAPTCHA interstitial returned instead of page content"
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/25181/abit-ax8-version-2-0-motherboard",
+      "server_name": "ABIT- AX8 (version 2.0) Motherboard",
+      "unreachable": true,
+      "failure_type": "Blocked",
+      "reason": "Bot-check / CAPTCHA interstitial returned instead of page content"
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/9790/abit-lm6-motherboard",
+      "server_name": "ABIT- LM6 Motherboard",
+      "unreachable": true,
+      "failure_type": "Blocked",
+      "reason": "Bot-check / CAPTCHA interstitial returned instead of page content"
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/15664/abit-bh7-e-motherboard",
+      "server_name": "ABIT- BH7-E Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR266X64C25/128",
+          "KVR266X64C25/1G",
+          "KVR266X64C25/256",
+          "KVR266X64C25/512",
+          "KVR333X64C25/128",
+          "KVR333X64C25/1G",
+          "KVR333X64C25/256",
+          "KVR333X64C25/512"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/15662/abit-kt7e-motherboard",
+      "server_name": "ABIT- KT7E Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR133X64C3/128",
+          "KVR133X64C3/256",
+          "KVR133X64C3/512",
+          "KVR133X64C3/64"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/model/34623/abit-ip-95-motherboard",
+      "server_name": "ABIT- IP-95 Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR533D2N4/1G",
+          "KVR533D2N4/256",
+          "KVR533D2N4/512",
+          "KVR533D2N4K2/1G",
+          "KVR533D2N4K2/2G",
+          "KVR533D2N4K2/512"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/9782/abit-zm6-motherboard",
+      "server_name": "ABIT- ZM6 Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR66X64/128",
+          "KVR66X64/64"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/model/19207/abit-aa8-duramax-motherboard",
+      "server_name": "ABIT- AA8 DuraMax Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR400D2N3/1G",
+          "KVR400D2N3/256",
+          "KVR400D2N3/2G",
+          "KVR400D2N3/512",
+          "KVR400D2N3K2/1G",
+          "KVR400D2N3K2/2G",
+          "KVR400D2N3K2/4G",
+          "KVR400D2N3K2/512",
+          "KVR533D2N4/1G",
+          "KVR533D2N4/256",
+          "KVR533D2N4/512",
+          "KVR533D2N4K2/1G",
+          "KVR533D2N4K2/2G",
+          "KVR533D2N4K2/512"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/12912/abit-kd7-kd7-raid-motherboard",
+      "server_name": "ABIT- KD7/KD7-RAID Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR266X64C25/128",
+          "KVR266X64C25/1G",
+          "KVR266X64C25/256",
+          "KVR266X64C25/512",
+          "KVR333X64C25/128",
+          "KVR333X64C25/1G",
+          "KVR333X64C25/256",
+          "KVR333X64C25/512",
+          "KVR400X64C25/256",
+          "KVR400X64C25/512"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/model/16996/abit-kv8-max3-motherboard",
+      "server_name": "ABIT- KV8-MAX3 Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR333X64C25/128",
+          "KVR333X64C25/1G",
+          "KVR333X64C25/256",
+          "KVR333X64C25/512",
+          "KVR333X72C25/1G",
+          "KVR333X72C25/256",
+          "KVR333X72C25/512",
+          "KVR400X64C3A/128",
+          "KVR400X64C3A/1G",
+          "KVR400X64C3A/256",
+          "KVR400X64C3A/512",
+          "KVR400X72C3A/1G",
+          "KVR400X72C3A/256",
+          "KVR400X72C3A/512"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/15663/abit-sd7-533-motherboard",
+      "server_name": "ABIT- SD7-533 Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR266X64C25/128",
+          "KVR266X64C25/1G",
+          "KVR266X64C25/256",
+          "KVR266X64C25/512",
+          "KVR333X64C25/128",
+          "KVR333X64C25/1G",
+          "KVR333X64C25/256",
+          "KVR333X64C25/512"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/13615/abit-it7-max2-v2-0-motherboard",
+      "server_name": "ABIT- IT7-MAX2 V2.0 Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR266X64C25/128",
+          "KVR266X64C25/1G",
+          "KVR266X64C25/256",
+          "KVR266X64C25/512",
+          "KVR333X64C25/128",
+          "KVR333X64C25/1G",
+          "KVR333X64C25/256",
+          "KVR333X64C25/512"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/13476/abit-kt7a-motherboard",
+      "server_name": "ABIT- KT7A Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR133X64C3/128",
+          "KVR133X64C3/256",
+          "KVR133X64C3/512",
+          "KVR133X64C3/64"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/13227/abit-kr7a-motherboard",
+      "server_name": "ABIT- KR7A Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR266X64C25/128",
+          "KVR266X64C25/1G",
+          "KVR266X64C25/256",
+          "KVR266X64C25/512",
+          "KVR266X72RC25/1GD",
+          "KVR266X72RC25/512D"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/model/24321/abit-lg-80-motherboard",
+      "server_name": "ABIT- LG-80 Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR533D2N4/1G",
+          "KVR533D2N4/256",
+          "KVR533D2N4/512",
+          "KVR533D2N4K2/1G",
+          "KVR533D2N4K2/2G",
+          "KVR533D2N4K2/512",
+          "KVR667D2N5/1G",
+          "KVR667D2N5/256",
+          "KVR667D2N5/512",
+          "KVR667D2N5K2/1G",
+          "KVR667D2N5K2/2G",
+          "KVR667D2N5K2/512"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/24056/abit-an8-v2-0-motherboard",
+      "server_name": "ABIT- AN8 V2.0 Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR400X64C3A/1G",
+          "KVR400X64C3A/256",
+          "KVR400X64C3A/512",
+          "KVR400X64C3AK2/1G",
+          "KVR400X64C3AK2/256",
+          "KVR400X64C3AK2/2G",
+          "KVR400X64C3AK2/512"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/13438/abit-wi-2p-wi-2pa-motherboard",
+      "server_name": "ABIT- WI-2P/WI-2Pa Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR266X72RC25/1024",
+          "KVR266X72RC25/128",
+          "KVR266X72RC25/256",
+          "KVR266X72RC25/2G",
+          "KVR266X72RC25/512"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/model/16960/abit-nf7-s-version-2-0-motherboard",
+      "server_name": "ABIT- NF7-S (version 2.0) Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR266X64C25/128",
+          "KVR266X64C25/1G",
+          "KVR266X64C25/256",
+          "KVR266X64C25/512",
+          "KVR333X64C25/128",
+          "KVR333X64C25/1G",
+          "KVR333X64C25/256",
+          "KVR333X64C25/512",
+          "KVR333X64C25K2/1G",
+          "KVR333X64C25K2/256",
+          "KVR333X64C25K2/2G",
+          "KVR333X64C25K2/512",
+          "KVR400X64C3A/128",
+          "KVR400X64C3A/1G",
+          "KVR400X64C3A/256",
+          "KVR400X64C3A/512",
+          "KVR400X64C3AK2/1G",
+          "KVR400X64C3AK2/2G",
+          "KVR400X64C3AK2/512"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/19500/abit-wi-1p-motherboard",
+      "server_name": "ABIT- WI-1P Motherboard",
+      "unreachable": true,
+      "failure_type": "Blocked",
+      "reason": "Bot-check / CAPTCHA interstitial returned instead of page content"
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/9791/abit-wb6-motherboard",
+      "server_name": "ABIT- WB6 Motherboard",
+      "unreachable": true,
+      "failure_type": "Blocked",
+      "reason": "Bot-check / CAPTCHA interstitial returned instead of page content"
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/17151/abit-va-10-motherboard",
+      "server_name": "ABIT- VA-10 Motherboard",
+      "unreachable": true,
+      "failure_type": "Blocked",
+      "reason": "Bot-check / CAPTCHA interstitial returned instead of page content"
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/12911/abit-at7-max2-motherboard",
+      "server_name": "ABIT- AT7 MAX2 Motherboard",
+      "unreachable": true,
+      "failure_type": "Blocked",
+      "reason": "Bot-check / CAPTCHA interstitial returned instead of page content"
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/17154/abit-bh-71-motherboard",
+      "server_name": "ABIT- BH-71 Motherboard",
+      "unreachable": true,
+      "failure_type": "Blocked",
+      "reason": "Bot-check / CAPTCHA interstitial returned instead of page content"
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/model/34311/abit-ib9-motherboard",
+      "server_name": "ABIT- IB9 Motherboard",
+      "unreachable": true,
+      "failure_type": "Blocked",
+      "reason": "Bot-check / CAPTCHA interstitial returned instead of page content"
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/13226/abit-sa7-motherboard",
+      "server_name": "ABIT- SA7 Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR266X64C25/128",
+          "KVR266X64C25/1G",
+          "KVR266X64C25/256",
+          "KVR266X64C25/512",
+          "KVR333X64C25/128",
+          "KVR333X64C25/1G",
+          "KVR333X64C25/256",
+          "KVR333X64C25/512"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/10141/abit-va6-motherboard",
+      "server_name": "ABIT- VA6 Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR133X64C3Q/128",
+          "KVR133X64C3Q/256"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/24053/abit-al8-v-motherboard",
+      "server_name": "ABIT- AL8-V Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR533D2N4/1G",
+          "KVR533D2N4/256",
+          "KVR533D2N4/512",
+          "KVR533D2N4K2/1G",
+          "KVR533D2N4K2/2G",
+          "KVR533D2N4K2/512",
+          "KVR667D2N5/1G",
+          "KVR667D2N5/256",
+          "KVR667D2N5/512",
+          "KVR667D2N5K2/1G",
+          "KVR667D2N5K2/2G",
+          "KVR667D2N5K2/512"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/9779/abit-be6-motherboard",
+      "server_name": "ABIT- BE6 Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR100X64C2/128",
+          "KVR100X64C2/256",
+          "KVR100X64C2/64",
+          "KVR100X72C2/128",
+          "KVR100X72C2/256",
+          "KVR100X72C2/64"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/model/33550/abit-in9-32x-max-motherboard",
+      "server_name": "ABIT- IN9 32X-MAX Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR667D2E5/1G",
+          "KVR667D2E5/256",
+          "KVR667D2E5/2G",
+          "KVR667D2E5/512",
+          "KVR667D2E5K2/1G",
+          "KVR667D2E5K2/2G",
+          "KVR667D2E5K2/4G",
+          "KVR667D2N5/1G",
+          "KVR667D2N5/256",
+          "KVR667D2N5/2G",
+          "KVR667D2N5/512",
+          "KVR667D2N5K2/1G",
+          "KVR667D2N5K2/2G",
+          "KVR667D2N5K2/4G",
+          "KVR667D2N5K2/512",
+          "KVR800D2E6/1G",
+          "KVR800D2E6/2G",
+          "KVR800D2E6/512",
+          "KVR800D2E6K2/1G",
+          "KVR800D2E6K2/2G",
+          "KVR800D2E6K2/4G",
+          "KVR800D2N6/1G",
+          "KVR800D2N6/2G",
+          "KVR800D2N6/512",
+          "KVR800D2N6K2/1G",
+          "KVR800D2N6K2/2G",
+          "KVR800D2N6K2/4G"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/model/42808/abit-an52v-motherboard",
+      "server_name": "ABIT- AN52V Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR533D2E4/1G",
+          "KVR533D2E4/256",
+          "KVR533D2E4/2G",
+          "KVR533D2E4/512",
+          "KVR533D2E4K2/1G",
+          "KVR533D2E4K2/2G",
+          "KVR533D2E4K2/4G",
+          "KVR533D2E4K2/512",
+          "KVR533D2N4/1G",
+          "KVR533D2N4/256",
+          "KVR533D2N4/2G",
+          "KVR533D2N4/512",
+          "KVR533D2N4K2/1G",
+          "KVR533D2N4K2/2G",
+          "KVR533D2N4K2/512",
+          "KVR667D2E5/1G",
+          "KVR667D2E5/2G",
+          "KVR667D2E5/512",
+          "KVR667D2E5K2/1G",
+          "KVR667D2E5K2/2G",
+          "KVR667D2E5K2/4G",
+          "KVR667D2N5/1G",
+          "KVR667D2N5/256",
+          "KVR667D2N5/2G",
+          "KVR667D2N5/512",
+          "KVR667D2N5K2/1G",
+          "KVR667D2N5K2/2G",
+          "KVR667D2N5K2/4G",
+          "KVR667D2N5K2/512",
+          "KVR800D2E6/1G",
+          "KVR800D2E6/2G",
+          "KVR800D2E6/512",
+          "KVR800D2E6K2/1G",
+          "KVR800D2E6K2/2G",
+          "KVR800D2E6K2/4G",
+          "KVR800D2N6/1G",
+          "KVR800D2N6/2G",
+          "KVR800D2N6/512",
+          "KVR800D2N6K2/1G",
+          "KVR800D2N6K2/2G",
+          "KVR800D2N6K2/4G"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/9777/abit-be6-ii-v2-0-motherboard",
+      "server_name": "ABIT- BE6-II V2.0 Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR100X64C2/128",
+          "KVR100X64C2/256",
+          "KVR100X64C2/64",
+          "KVR100X72C2/128",
+          "KVR100X72C2/256",
+          "KVR100X72C2/64"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/10155/abit-kt7-raid-motherboard",
+      "server_name": "ABIT- KT7-RAID Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR133X64C3/128",
+          "KVR133X64C3/256",
+          "KVR133X64C3/512",
+          "KVR133X64C3/64"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/model/18500/abit-kv8-pro-motherboard",
+      "server_name": "ABIT- KV8 Pro Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR333X64C25/128",
+          "KVR333X64C25/1G",
+          "KVR333X64C25/256",
+          "KVR333X64C25/512",
+          "KVR333X72C25/1G",
+          "KVR333X72C25/256",
+          "KVR333X72C25/512",
+          "KVR400X64C3A/128",
+          "KVR400X64C3A/1G",
+          "KVR400X64C3A/256",
+          "KVR400X64C3A/512",
+          "KVR400X72C3A/1G",
+          "KVR400X72C3A/256",
+          "KVR400X72C3A/512"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/9781/abit-bp6-motherboard",
+      "server_name": "ABIT- BP6 Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR100X64C2/128",
+          "KVR100X64C2/256",
+          "KVR100X64C2/64",
+          "KVR100X72C2/128",
+          "KVR100X72C2/256",
+          "KVR100X72C2/64"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/21634/abit-ax8-3rd-eye-motherboard",
+      "server_name": "ABIT- AX8-3rd Eye Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR266X64C25/128",
+          "KVR266X64C25/1G",
+          "KVR266X64C25/256",
+          "KVR266X64C25/512",
+          "KVR333X64C25/128",
+          "KVR333X64C25/1G",
+          "KVR333X64C25/256",
+          "KVR333X64C25/512",
+          "KVR333X64C25K2/1G",
+          "KVR333X64C25K2/256",
+          "KVR333X64C25K2/2G",
+          "KVR333X64C25K2/512",
+          "KVR400X64C3/256",
+          "KVR400X64C3/512",
+          "KVR400X64C3A/128",
+          "KVR400X64C3A/1G",
+          "KVR400X64C3A/256",
+          "KVR400X64C3A/512",
+          "KVR400X64C3AK2/1G",
+          "KVR400X64C3AK2/256",
+          "KVR400X64C3AK2/2G",
+          "KVR400X64C3AK2/512"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/17156/abit-kd7a-motherboard",
+      "server_name": "ABIT- KD7A Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR266X64C25/128",
+          "KVR266X64C25/1G",
+          "KVR266X64C25/256",
+          "KVR266X64C25/512",
+          "KVR333X64C25/128",
+          "KVR333X64C25/1G",
+          "KVR333X64C25/256",
+          "KVR333X64C25/512",
+          "KVR400X64C25/256",
+          "KVR400X64C25/512"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/15546/abit-si-1ns-motherboard",
+      "server_name": "ABIT- SI-1Ns Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR266X64C25/128",
+          "KVR266X64C25/1G",
+          "KVR266X64C25/256",
+          "KVR266X64C25/512"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/10138/abit-wx6-motherboard",
+      "server_name": "ABIT- WX6 Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR100X64C2/128",
+          "KVR100X64C2/256",
+          "KVR100X64C2/64"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/20046/abit-si-1ns60-motherboard",
+      "server_name": "ABIT- SI-1Ns60 Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR266X64C25/128",
+          "KVR266X64C25/1G",
+          "KVR266X64C25/256",
+          "KVR266X64C25/512",
+          "KVR333X64C25/128",
+          "KVR333X64C25/1G",
+          "KVR333X64C25/256",
+          "KVR333X64C25/512"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/13225/abit-sr7-8x-motherboard",
+      "server_name": "ABIT- SR7-8X Motherboard",
+      "unreachable": true,
+      "failure_type": "Blocked",
+      "reason": "Bot-check / CAPTCHA interstitial returned instead of page content"
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/model/33766/abit-nf-m2p-motherboard",
+      "server_name": "ABIT- NF-M2P Motherboard",
+      "unreachable": true,
+      "failure_type": "Blocked",
+      "reason": "Bot-check / CAPTCHA interstitial returned instead of page content"
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/13229/abit-th7ii-raid-th7ii-motherboard",
+      "server_name": "ABIT- TH7II-RAID/TH7II Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR-CRIMM",
+          "KVR800X16-16/512",
+          "KVR800X16/128",
+          "KVR800X16/256",
+          "KVR800X18-16/512",
+          "KVR800X18/128",
+          "KVR800X18/256"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/25199/abit-kn8-sli-motherboard",
+      "server_name": "ABIT- KN8 SLI Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR400X64C3A/1G",
+          "KVR400X64C3A/256",
+          "KVR400X64C3A/512",
+          "KVR400X64C3AK2/1G",
+          "KVR400X64C3AK2/256",
+          "KVR400X64C3AK2/2G",
+          "KVR400X64C3AK2/512"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/model/25886/abit-nf8-v-pro-motherboard",
+      "server_name": "ABIT- NF8-V Pro Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR400X64C3A/128",
+          "KVR400X64C3A/1G",
+          "KVR400X64C3A/256",
+          "KVR400X64C3A/512"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/13228/abit-nv7m-motherboard",
+      "server_name": "ABIT- NV7m Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR266X64C25/128",
+          "KVR266X64C25/256",
+          "KVR266X64C25/512"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/model/25196/abit-ni8-sli-gr-motherboard",
+      "server_name": "ABIT- NI8-SLI GR Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR667D2N5/1G",
+          "KVR667D2N5/256",
+          "KVR667D2N5/2G",
+          "KVR667D2N5/512",
+          "KVR667D2N5K2/1G",
+          "KVR667D2N5K2/2G",
+          "KVR667D2N5K2/512"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/model/43051/abit-ax78-motherboard",
+      "server_name": "ABIT- AX78 Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR1066D2N7/1G",
+          "KVR1066D2N7/512",
+          "KVR1066D2N7K2/1G",
+          "KVR1066D2N7K2/2G",
+          "KVR667D2N5/1G",
+          "KVR667D2N5/256",
+          "KVR667D2N5/2G",
+          "KVR667D2N5/512",
+          "KVR667D2N5K2/1G",
+          "KVR667D2N5K2/2G",
+          "KVR667D2N5K2/4G",
+          "KVR667D2N5K2/512",
+          "KVR800D2N6/1G",
+          "KVR800D2N6/2G",
+          "KVR800D2N6/512",
+          "KVR800D2N6K2/1G",
+          "KVR800D2N6K2/2G",
+          "KVR800D2N6K2/4G"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/24054/abit-aw8-motherboard",
+      "server_name": "ABIT- AW8 Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR533D2N4/1G",
+          "KVR533D2N4/256",
+          "KVR533D2N4/512",
+          "KVR533D2N4K2/1G",
+          "KVR533D2N4K2/2G",
+          "KVR533D2N4K2/512",
+          "KVR667D2N5/1G",
+          "KVR667D2N5/256",
+          "KVR667D2N5/512",
+          "KVR667D2N5K2/1G",
+          "KVR667D2N5K2/2G",
+          "KVR667D2N5K2/512"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/15666/abit-bd7-e-motherboard",
+      "server_name": "ABIT- BD7-E Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR266X64C25/128",
+          "KVR266X64C25/1G",
+          "KVR266X64C25/256",
+          "KVR266X64C25/512"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/model/33779/abit-nf-m2s-motherboard",
+      "server_name": "ABIT- NF-M2S Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR533D2E4/1G",
+          "KVR533D2E4/256",
+          "KVR533D2E4/512",
+          "KVR533D2E4K2/1G",
+          "KVR533D2E4K2/2G",
+          "KVR533D2E4K2/512",
+          "KVR533D2N4/1G",
+          "KVR533D2N4/256",
+          "KVR533D2N4/512",
+          "KVR533D2N4K2/1G",
+          "KVR533D2N4K2/2G",
+          "KVR533D2N4K2/512",
+          "KVR667D2E5/1G",
+          "KVR667D2E5/256",
+          "KVR667D2E5/512",
+          "KVR667D2E5K2/1G",
+          "KVR667D2E5K2/2G",
+          "KVR667D2N5/1G",
+          "KVR667D2N5/256",
+          "KVR667D2N5/512",
+          "KVR667D2N5K2/1G",
+          "KVR667D2N5K2/2G",
+          "KVR667D2N5K2/512",
+          "KVR800D2E6/1G",
+          "KVR800D2E6/512",
+          "KVR800D2E6K2/1G",
+          "KVR800D2E6K2/2G",
+          "KVR800D2N6/1G",
+          "KVR800D2N6/512",
+          "KVR800D2N6K2/1G",
+          "KVR800D2N6K2/2G"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/10154/abit-kt7-motherboard",
+      "server_name": "ABIT- KT7 Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR133X64C3/128",
+          "KVR133X64C3/256",
+          "KVR133X64C3/512",
+          "KVR133X64C3/64"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/13847/abit-kr7a-133-motherboard",
+      "server_name": "ABIT- KR7A-133 Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR266X64C25/128",
+          "KVR266X64C25/1G",
+          "KVR266X64C25/256",
+          "KVR266X64C25/512"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/model/41854/abit-ix38-quadgt-motherboard",
+      "server_name": "ABIT- IX38 QuadGT Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR533D2N4/1G",
+          "KVR533D2N4/256",
+          "KVR533D2N4/2G",
+          "KVR533D2N4/512",
+          "KVR533D2N4K2/1G",
+          "KVR533D2N4K2/2G",
+          "KVR533D2N4K2/4G",
+          "KVR533D2N4K2/512",
+          "KVR667D2N5/1G",
+          "KVR667D2N5/256",
+          "KVR667D2N5/2G",
+          "KVR667D2N5/512",
+          "KVR667D2N5K2/1G",
+          "KVR667D2N5K2/2G",
+          "KVR667D2N5K2/4G",
+          "KVR667D2N5K2/512",
+          "KVR800D2N6/1G",
+          "KVR800D2N6/2G",
+          "KVR800D2N6/512",
+          "KVR800D2N6K2/1G",
+          "KVR800D2N6K2/2G",
+          "KVR800D2N6K2/4G"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/20435/abit-ax8-motherboard",
+      "server_name": "ABIT- AX8 Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR266X64C25/128",
+          "KVR266X64C25/1G",
+          "KVR266X64C25/256",
+          "KVR266X64C25/512",
+          "KVR333X64C25/128",
+          "KVR333X64C25/1G",
+          "KVR333X64C25/256",
+          "KVR333X64C25/512",
+          "KVR333X64C25K2/1G",
+          "KVR333X64C25K2/256",
+          "KVR333X64C25K2/2G",
+          "KVR333X64C25K2/512",
+          "KVR400X64C3/256",
+          "KVR400X64C3/512",
+          "KVR400X64C3A/128",
+          "KVR400X64C3A/1G",
+          "KVR400X64C3A/256",
+          "KVR400X64C3A/512",
+          "KVR400X64C3AK2/1G",
+          "KVR400X64C3AK2/256",
+          "KVR400X64C3AK2/2G",
+          "KVR400X64C3AK2/512"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/13439/abit-si-2p-motherboard",
+      "server_name": "ABIT- SI-2P Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR266X72RC25/1024",
+          "KVR266X72RC25/128",
+          "KVR266X72RC25/256",
+          "KVR266X72RC25/2G",
+          "KVR266X72RC25/512"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/11160/abit-kg7-kg7-raid-motherboard",
+      "server_name": "ABIT- KG7/KG7-RAID Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR266X64C25/128",
+          "KVR266X64C25/256",
+          "KVR266X64C25/512",
+          "KVR266X72RC25/1024",
+          "KVR266X72RC25/256",
+          "KVR266X72RC25/512"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/model/19079/abit-kv8-motherboard",
+      "server_name": "ABIT- KV8 Motherboard",
+      "unreachable": true,
+      "failure_type": "Blocked",
+      "reason": "Bot-check / CAPTCHA interstitial returned instead of page content"
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/22713/abit-gd8-v-motherboard",
+      "server_name": "ABIT- GD8-V Motherboard",
+      "unreachable": true,
+      "failure_type": "Blocked",
+      "reason": "Bot-check / CAPTCHA interstitial returned instead of page content"
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/model/16549/abit-kv7-motherboard",
+      "server_name": "ABIT- KV7 Motherboard",
+      "unreachable": true,
+      "failure_type": "Blocked",
+      "reason": "Bot-check / CAPTCHA interstitial returned instead of page content"
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/22716/abit-an8-v-motherboard",
+      "server_name": "ABIT- AN8-V Motherboard",
+      "unreachable": true,
+      "failure_type": "Blocked",
+      "reason": "Bot-check / CAPTCHA interstitial returned instead of page content"
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/model/42687/abit-a-n68sv-motherboard",
+      "server_name": "ABIT- A-N68SV Motherboard",
+      "unreachable": true,
+      "failure_type": "Blocked",
+      "reason": "Bot-check / CAPTCHA interstitial returned instead of page content"
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/24052/abit-al8-motherboard",
+      "server_name": "ABIT- AL8 Motherboard",
+      "unreachable": true,
+      "failure_type": "Blocked",
+      "reason": "Bot-check / CAPTCHA interstitial returned instead of page content"
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/22717/abit-an8-3rd-eye-motherboard",
+      "server_name": "ABIT- AN8-3rd Eye Motherboard",
+      "unreachable": true,
+      "failure_type": "Blocked",
+      "reason": "Bot-check / CAPTCHA interstitial returned instead of page content"
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/10139/abit-ka7-100-motherboard",
+      "server_name": "ABIT- KA7-100 Motherboard",
+      "unreachable": true,
+      "failure_type": "Blocked",
+      "reason": "Bot-check / CAPTCHA interstitial returned instead of page content"
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/model/42704/abit-i-n73hd-motherboard",
+      "server_name": "ABIT- I-N73HD Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR800D2N6/1G",
+          "KVR800D2N6/2G",
+          "KVR800D2N6/512",
+          "KVR800D2N6K2/1G",
+          "KVR800D2N6K2/2G",
+          "KVR800D2N6K2/4G"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/19488/abit-si-ns60-motherboard",
+      "server_name": "ABIT- SI-Ns60 Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR266X64C25/128",
+          "KVR266X64C25/1G",
+          "KVR266X64C25/256",
+          "KVR266X64C25/512",
+          "KVR333X64C25/128",
+          "KVR333X64C25/1G",
+          "KVR333X64C25/256",
+          "KVR333X64C25/512"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/19629/abit-si-2ps-motherboard",
+      "server_name": "ABIT- SI-2Ps Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR266X72RC25/1024",
+          "KVR266X72RC25/128",
+          "KVR266X72RC25/256",
+          "KVR266X72RC25/2G",
+          "KVR266X72RC25/512"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/22712/abit-gd8-mv-motherboard",
+      "server_name": "ABIT- GD8-MV Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR333X64C25/128",
+          "KVR333X64C25/1G",
+          "KVR333X64C25/256",
+          "KVR333X64C25/512",
+          "KVR333X64C25K2/1G",
+          "KVR333X64C25K2/256",
+          "KVR333X64C25K2/2G",
+          "KVR333X64C25K2/512",
+          "KVR400X64C3A/128",
+          "KVR400X64C3A/1G",
+          "KVR400X64C3A/256",
+          "KVR400X64C3A/512",
+          "KVR400X64C3AK2/1G",
+          "KVR400X64C3AK2/256",
+          "KVR400X64C3AK2/2G",
+          "KVR400X64C3AK2/512"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/25198/abit-kn8-ultra-motherboard",
+      "server_name": "ABIT- KN8 Ultra Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR400X64C3A/1G",
+          "KVR400X64C3A/256",
+          "KVR400X64C3A/512",
+          "KVR400X64C3AK2/1G",
+          "KVR400X64C3AK2/256",
+          "KVR400X64C3AK2/2G",
+          "KVR400X64C3AK2/512"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/22710/abit-gd8-m-motherboard",
+      "server_name": "ABIT- GD8-M Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR333X64C25/128",
+          "KVR333X64C25/1G",
+          "KVR333X64C25/256",
+          "KVR333X64C25/512",
+          "KVR333X64C25K2/1G",
+          "KVR333X64C25K2/256",
+          "KVR333X64C25K2/2G",
+          "KVR333X64C25K2/512",
+          "KVR400X64C3A/128",
+          "KVR400X64C3A/1G",
+          "KVR400X64C3A/256",
+          "KVR400X64C3A/512",
+          "KVR400X64C3AK2/1G",
+          "KVR400X64C3AK2/256",
+          "KVR400X64C3AK2/2G",
+          "KVR400X64C3AK2/512"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/19487/abit-fatal1ty-an8-motherboard",
+      "server_name": "ABIT- Fatal1ty AN8 Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR266X64C25/128",
+          "KVR266X64C25/1G",
+          "KVR266X64C25/256",
+          "KVR266X64C25/512",
+          "KVR333X64C25/128",
+          "KVR333X64C25/1G",
+          "KVR333X64C25/256",
+          "KVR333X64C25/512",
+          "KVR333X64C25K2/1G",
+          "KVR333X64C25K2/256",
+          "KVR333X64C25K2/2G",
+          "KVR333X64C25K2/512",
+          "KVR400X64C3A/128",
+          "KVR400X64C3A/1G",
+          "KVR400X64C3A/256",
+          "KVR400X64C3A/512",
+          "KVR400X64C3AK2/1G",
+          "KVR400X64C3AK2/256",
+          "KVR400X64C3AK2/2G",
+          "KVR400X64C3AK2/512"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/19628/abit-ag8-v-motherboard",
+      "server_name": "ABIT- AG8-V Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR333X64C25/128",
+          "KVR333X64C25/1G",
+          "KVR333X64C25/256",
+          "KVR333X64C25/512",
+          "KVR333X64C25K2/1G",
+          "KVR333X64C25K2/256",
+          "KVR333X64C25K2/2G",
+          "KVR333X64C25K2/512",
+          "KVR400X64C3A/128",
+          "KVR400X64C3A/1G",
+          "KVR400X64C3A/256",
+          "KVR400X64C3A/512",
+          "KVR400X64C3AK2/1G",
+          "KVR400X64C3AK2/256",
+          "KVR400X64C3AK2/2G",
+          "KVR400X64C3AK2/512"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/17155/abit-bd7iii-motherboard",
+      "server_name": "ABIT- BD7III Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR266X64C25/128",
+          "KVR266X64C25/1G",
+          "KVR266X64C25/256",
+          "KVR266X64C25/512"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/10777/abit-th7-th7-raid-motherboard",
+      "server_name": "ABIT- TH7/TH7-RAID Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR-CRIMM",
+          "KVR800X16-16/512",
+          "KVR800X16/128",
+          "KVR800X16/256",
+          "KVR800X18-16/512",
+          "KVR800X18/128",
+          "KVR800X18/256"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/9780/abit-bf6-motherboard",
+      "server_name": "ABIT- BF6 Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR100X64C2/128",
+          "KVR100X64C2/256",
+          "KVR100X64C2/64",
+          "KVR100X72C2/128",
+          "KVR100X72C2/256",
+          "KVR100X72C2/64"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/discontinuedmodel/9792/abit-be6-ii-motherboard",
+      "server_name": "ABIT- BE6-II Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR100X64C2/128",
+          "KVR100X64C2/256",
+          "KVR100X64C2/64",
+          "KVR100X72C2/128",
+          "KVR100X72C2/256",
+          "KVR100X72C2/64"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/model/29919/abit-aw8d-motherboard",
+      "server_name": "ABIT- AW8D Motherboard",
+      "unreachable": false,
+      "server_mismatches": [],
+      "server_drift": [],
+      "parts_diff": {
+        "mismatches": [],
+        "drift": [],
+        "missing_on_live": [],
+        "new_on_live": [
+          "KVR533D2N4/1G",
+          "KVR533D2N4/256",
+          "KVR533D2N4/2G",
+          "KVR533D2N4/512",
+          "KVR533D2N4K2/1G",
+          "KVR533D2N4K2/2G",
+          "KVR533D2N4K2/512",
+          "KVR667D2N5/1G",
+          "KVR667D2N5/256",
+          "KVR667D2N5/512",
+          "KVR667D2N5K2/1G",
+          "KVR667D2N5K2/2G",
+          "KVR667D2N5K2/512"
+        ]
+      }
+    },
+    {
+      "server_url": "https://www.kingston.com/en/memory/search/model/24319/abit-lp-81-motherboard",
+      "server_name": "ABIT- LP-81 Motherboard",
+      "unreachable": true,
+      "failure_type": "Blocked",
+      "reason": "Bot-check / CAPTCHA interstitial returned instead of page content"
+    }
+  ]
+}
