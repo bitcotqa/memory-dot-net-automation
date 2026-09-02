@@ -11,10 +11,17 @@ for hydration, and defensively click anything that looks collapsed —
 without depending on that clicking to *find* data that's already there.
 """
 
+import time
+
 from bs4 import BeautifulSoup
 
 from agent.error_handler import BlockedError, ScrapeError, FailureType
-from config.config import SAVE_DEBUG_HTML_ON_FAILURE, ENABLE_EXPLORATORY_CLICKS
+from config.config import (
+    SAVE_DEBUG_HTML_ON_FAILURE,
+    ENABLE_EXPLORATORY_CLICKS,
+    HEADLESS,
+    CAPTCHA_WAIT_SECONDS,
+)
 from utils.logger import get_logger
 
 logger = get_logger(__name__)
@@ -67,6 +74,31 @@ def _looks_blocked(title: str, html: str) -> bool:
     return any(marker in html_l for marker in _BLOCK_STRONG_HTML_MARKERS)
 
 
+def _wait_for_headed_challenge(agent, title: str, html: str):
+    """Allow a user to complete a visible bot check, then return the final DOM.
+
+    Returns ``(title, html)`` unchanged in headless mode or after the configured
+    deadline. This does not attempt to solve or bypass the challenge itself.
+    """
+    if HEADLESS or CAPTCHA_WAIT_SECONDS <= 0 or not _looks_blocked(title, html):
+        return title, html
+
+    logger.warning(
+        "CAPTCHA detected in headed mode. Complete it in the browser window; "
+        "waiting up to %.0f seconds...",
+        CAPTCHA_WAIT_SECONDS,
+    )
+    deadline = time.monotonic() + CAPTCHA_WAIT_SECONDS
+    while time.monotonic() < deadline:
+        agent.page.wait_for_timeout(1000)
+        title = agent.title()
+        html = agent.content()
+        if not _looks_blocked(title, html):
+            logger.info("CAPTCHA cleared; continuing with the rendered page.")
+            break
+    return title, html
+
+
 def open_server_page(agent, url: str, debug_label: str = "") -> BeautifulSoup:
     """Navigate to url and return a parsed BeautifulSoup tree of the fully
     settled page. Raises ScrapeError (BlockedError / NAVIGATION / TIMEOUT)
@@ -90,6 +122,7 @@ def open_server_page(agent, url: str, debug_label: str = "") -> BeautifulSoup:
     # as fatal if the content itself also looks wrong.
     title = agent.title()
     html = agent.content()
+    title, html = _wait_for_headed_challenge(agent, title, html)
 
     if _looks_blocked(title, html):
         if SAVE_DEBUG_HTML_ON_FAILURE and debug_label:

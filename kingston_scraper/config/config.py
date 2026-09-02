@@ -48,6 +48,21 @@ for _d in (OUTPUT_DIR, DEBUG_DIR, LOG_DIR, STATE_DIR):
 
 # --- Run mode --------------------------------------------------------------
 HEADLESS = os.getenv("HEADLESS", "true").lower() == "true"
+# A persistent profile is especially useful in headed mode: Cloudflare's
+# clearance cookie survives page/browser restarts instead of every retry
+# looking like a brand-new visitor. Set this to an empty string to use an
+# ephemeral Playwright context.
+_browser_profile_value = os.getenv("BROWSER_PROFILE_DIR", "state/browser_profile").strip()
+BROWSER_PROFILE_DIR = (
+    (BASE_DIR / _browser_profile_value).resolve()
+    if _browser_profile_value and not Path(_browser_profile_value).is_absolute()
+    else (Path(_browser_profile_value).resolve() if _browser_profile_value else None)
+)
+
+# In a visible browser, leave a real CAPTCHA on screen long enough for the
+# operator to solve it. Headless runs still fail fast because no person can
+# interact with the challenge there.
+CAPTCHA_WAIT_SECONDS = float(os.getenv("CAPTCHA_WAIT_SECONDS", "180"))
 
 # --- Timeouts (milliseconds, Playwright convention) -------------------------
 NAV_TIMEOUT_MS = int(os.getenv("NAV_TIMEOUT_MS", "45000"))

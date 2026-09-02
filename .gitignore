@@ -29,3 +29,5 @@ kingston_scraper/output/kingston_test_5.zip
 /verification/
 /verify_kingston_csv.py
 /output/
+# Local Playwright profile (cookies, cache, browser state)
+kingston_scraper/state/browser_profile/

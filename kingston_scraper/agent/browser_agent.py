@@ -15,16 +15,11 @@ from config.config import (
     ACTION_TIMEOUT_MS,
     POST_LOAD_SETTLE_MS,
     DEBUG_DIR,
+    BROWSER_PROFILE_DIR,
 )
 from utils.logger import get_logger
 
 logger = get_logger(__name__)
-
-_USER_AGENT = (
-    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
-    "(KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
-)
-
 
 class BrowserAgent:
     """Owns one Chromium browser + page for the lifetime of a scrape run."""
@@ -40,21 +35,25 @@ class BrowserAgent:
     def start(self):
         logger.info("Launching Chromium (headless=%s)", HEADLESS)
         self._playwright = sync_playwright().start()
-        self.browser = self._playwright.chromium.launch(
-            headless=HEADLESS,
-            args=["--disable-blink-features=AutomationControlled"],
-        )
-        self.context = self.browser.new_context(
-            user_agent=_USER_AGENT,
-            viewport={"width": 1440, "height": 900},
-            locale="en-US",
-        )
-        self.context.add_init_script(
-            "Object.defineProperty(navigator, 'webdriver', {get: () => undefined})"
-        )
+        context_options = {
+            "headless": HEADLESS,
+            "viewport": {"width": 1440, "height": 900},
+            "locale": "en-US",
+        }
+        if BROWSER_PROFILE_DIR:
+            BROWSER_PROFILE_DIR.mkdir(parents=True, exist_ok=True)
+            logger.info("Using persistent browser profile: %s", BROWSER_PROFILE_DIR)
+            self.context = self._playwright.chromium.launch_persistent_context(
+                str(BROWSER_PROFILE_DIR), **context_options
+            )
+        else:
+            self.browser = self._playwright.chromium.launch(headless=HEADLESS)
+            self.context = self.browser.new_context(
+                viewport=context_options["viewport"], locale=context_options["locale"]
+            )
         self.context.set_default_timeout(ACTION_TIMEOUT_MS)
         self.context.set_default_navigation_timeout(NAV_TIMEOUT_MS)
-        self.page = self.context.new_page()
+        self.page = self.context.pages[0] if self.context.pages else self.context.new_page()
         return self
 
     def stop(self):
