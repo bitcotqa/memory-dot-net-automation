@@ -98,10 +98,54 @@ reputation — so two things changed:
 
 If you're still seeing a hard block after these changes, the next levers
 to try (in `.env`): a much larger `COOLDOWN_SECONDS` (e.g. 300+), a larger
-`REQUEST_DELAY_SECONDS`, or `HEADLESS=false` if you have a real display —
-headed Chromium is generally less fingerprintable to bot management than
-headless, even with the anti-automation flags already set in
-`browser_agent.py`.
+`REQUEST_DELAY_SECONDS`, or `HEADLESS=false` if you have a real display — a
+visible stable browser is generally less fingerprintable to bot management
+than headless Chromium.
+
+### If headed Chrome loops on "Verify you are human"
+
+The scraper never clicks or solves a CAPTCHA automatically. In headed mode it
+waits while you complete the visible checkbox and then continues when Kingston
+renders the requested page. Headed mode auto-selects installed Google Chrome or
+Microsoft Edge, uses a persistent profile, and omits Playwright's
+browser-automation signal by default so a legitimate manual verification has
+a chance to persist.
+
+If Cloudflare still loops after you click the checkbox, attach the scraper to a
+normal Chrome/Edge process using the included headed runner. Close any previous
+scraper browser, then run this from `kingston_scraper`:
+
+```powershell
+.\.venv\Scripts\python.exe run_headed.py --resume
+```
+
+It auto-selects installed Chrome or Edge, uses a dedicated persistent profile,
+opens `kingston.com`, and connects the scraper to that same browser. Complete
+the checkbox manually if it appears; the scraper continues automatically. All
+normal scraper options can be appended, such as `--retry-failed` or `--max 10`.
+
+The equivalent manual setup is shown below for troubleshooting. Start Chrome:
+
+```powershell
+$chrome = "$env:ProgramFiles\Google\Chrome\Application\chrome.exe"
+Start-Process $chrome -ArgumentList '--remote-debugging-port=9222', "--user-data-dir=$PWD\state\manual_chrome_profile"
+```
+
+If Chrome is not installed, use Edge instead:
+
+```powershell
+$edge = "${env:ProgramFiles(x86)}\Microsoft\Edge\Application\msedge.exe"
+Start-Process $edge -ArgumentList '--remote-debugging-port=9222', "--user-data-dir=$PWD\state\manual_edge_profile"
+```
+
+In that browser window, complete the checkbox once and keep it open. Then
+configure and resume the scraper:
+
+```powershell
+$env:BROWSER_CDP_URL = "http://127.0.0.1:9222"
+$env:HEADLESS = "false"
+.\.venv\Scripts\python.exe main.py --resume
+```
 
 ## Project layout
 

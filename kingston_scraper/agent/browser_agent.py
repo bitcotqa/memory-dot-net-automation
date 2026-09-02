@@ -16,6 +16,9 @@ from config.config import (
     POST_LOAD_SETTLE_MS,
     DEBUG_DIR,
     BROWSER_PROFILE_DIR,
+    BROWSER_CHANNEL,
+    BROWSER_CDP_URL,
+    IGNORE_DEFAULT_AUTOMATION_ARG,
 )
 from utils.logger import get_logger
 
@@ -29,17 +32,45 @@ class BrowserAgent:
         self.browser = None
         self.context = None
         self.page = None
+        self._attached_over_cdp = False
 
     # -- lifecycle -----------------------------------------------------
 
     def start(self):
-        logger.info("Launching Chromium (headless=%s)", HEADLESS)
         self._playwright = sync_playwright().start()
+        if BROWSER_CDP_URL:
+            logger.info("Attaching to existing Chrome at %s", BROWSER_CDP_URL)
+            self.browser = self._playwright.chromium.connect_over_cdp(BROWSER_CDP_URL)
+            if not self.browser.contexts:
+                raise RuntimeError("The attached Chrome instance has no browser context")
+            self.context = self.browser.contexts[0]
+            self._attached_over_cdp = True
+            self.context.set_default_timeout(ACTION_TIMEOUT_MS)
+            self.context.set_default_navigation_timeout(NAV_TIMEOUT_MS)
+            # Always use a scraper-owned tab; never commandeer or close one of
+            # the operator's existing tabs in an attached Chrome session.
+            self.page = self.context.new_page()
+            return self
+
+        logger.info(
+            "Launching %s (headless=%s)",
+            f"browser channel {BROWSER_CHANNEL!r}" if BROWSER_CHANNEL else "bundled Chromium",
+            HEADLESS,
+        )
         context_options = {
             "headless": HEADLESS,
             "viewport": {"width": 1440, "height": 900},
             "locale": "en-US",
         }
+        if BROWSER_CHANNEL:
+            context_options["channel"] = BROWSER_CHANNEL
+        if IGNORE_DEFAULT_AUTOMATION_ARG:
+            context_options["ignore_default_args"] = ["--enable-automation"]
+            # The Playwright control pipe independently exposes webdriver
+            # even without --enable-automation. Suppress that browser-level
+            # signal so a human-completed Turnstile check is not rejected
+            # merely because the visible browser is under test automation.
+            context_options["args"] = ["--disable-blink-features=AutomationControlled"]
         if BROWSER_PROFILE_DIR:
             BROWSER_PROFILE_DIR.mkdir(parents=True, exist_ok=True)
             logger.info("Using persistent browser profile: %s", BROWSER_PROFILE_DIR)
@@ -58,14 +89,16 @@ class BrowserAgent:
 
     def stop(self):
         try:
-            if self.context:
+            if self.page and self._attached_over_cdp:
+                self.page.close()
+            elif self.context:
                 self.context.close()
-            if self.browser:
+            if self.browser and not self._attached_over_cdp:
                 self.browser.close()
         finally:
             if self._playwright:
                 self._playwright.stop()
-        logger.info("Browser closed")
+        logger.info("Browser %s", "disconnected" if self._attached_over_cdp else "closed")
 
     def __enter__(self):
         return self.start()

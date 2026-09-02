@@ -31,3 +31,4 @@ kingston_scraper/output/kingston_test_5.zip
 /output/
 # Local Playwright profile (cookies, cache, browser state)
 kingston_scraper/state/browser_profile/
+kingston_scraper/state/manual_*_profile/

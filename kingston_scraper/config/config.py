@@ -48,6 +48,53 @@ for _d in (OUTPUT_DIR, DEBUG_DIR, LOG_DIR, STATE_DIR):
 
 # --- Run mode --------------------------------------------------------------
 HEADLESS = os.getenv("HEADLESS", "true").lower() == "true"
+
+
+def _default_headed_browser_channel():
+    """Prefer an installed stable Chrome-family browser for headed runs."""
+    if HEADLESS:
+        return None
+    if os.name == "nt":
+        local_app_data = Path(os.getenv("LOCALAPPDATA", ""))
+        program_files = Path(os.getenv("PROGRAMFILES", "C:/Program Files"))
+        program_files_x86 = Path(os.getenv("PROGRAMFILES(X86)", "C:/Program Files (x86)"))
+        candidates = (
+            ("chrome", program_files / "Google/Chrome/Application/chrome.exe"),
+            ("chrome", program_files_x86 / "Google/Chrome/Application/chrome.exe"),
+            ("chrome", local_app_data / "Google/Chrome/Application/chrome.exe"),
+            ("msedge", program_files / "Microsoft/Edge/Application/msedge.exe"),
+            ("msedge", program_files_x86 / "Microsoft/Edge/Application/msedge.exe"),
+            ("msedge", local_app_data / "Microsoft/Edge/Application/msedge.exe"),
+        )
+        for channel, executable in candidates:
+            if executable.is_file():
+                return channel
+    # Playwright provides a clear installation message if this channel is
+    # unavailable on non-Windows systems; users can override it or use CDP.
+    return "chrome"
+
+
+# Prefer the locally installed, stable Google Chrome build for interactive
+# runs. It is the same browser a person normally uses and is less likely to
+# get trapped in a Turnstile verification loop than Playwright's bundled
+# Chromium. Headless jobs retain bundled Chromium unless explicitly changed.
+BROWSER_CHANNEL = os.getenv("BROWSER_CHANNEL", "").strip() or _default_headed_browser_channel()
+
+# Advanced/manual mode: attach to an already-running Chrome instance started
+# with --remote-debugging-port instead of having Playwright launch it. This is
+# useful when Cloudflare refuses to clear a challenge in any Playwright-
+# launched process. The scraper opens its own tab and leaves Chrome running.
+BROWSER_CDP_URL = os.getenv("BROWSER_CDP_URL", "").strip() or None
+
+# Playwright normally exposes browser-automation state. In a visible,
+# operator-driven session this can make a legitimately completed Turnstile
+# checkbox loop forever, so suppress that browser-level signal. This does not
+# solve/click a CAPTCHA; the user must still complete any challenge Cloudflare
+# chooses to present.
+IGNORE_DEFAULT_AUTOMATION_ARG = (
+    os.getenv("IGNORE_DEFAULT_AUTOMATION_ARG", "true" if not HEADLESS else "false").lower()
+    == "true"
+)
 # A persistent profile is especially useful in headed mode: Cloudflare's
 # clearance cookie survives page/browser restarts instead of every retry
 # looking like a brand-new visitor. Set this to an empty string to use an
