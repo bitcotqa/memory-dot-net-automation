@@ -111,6 +111,14 @@ Microsoft Edge, uses a persistent profile, and omits Playwright's
 browser-automation signal by default so a legitimate manual verification has
 a chance to persist.
 
+CAPTCHA **detection and continuation are automatic and per page load**. After
+every server, audit, or SSD-product navigation, the scraper inspects that
+page's current title and rendered HTML. A normal page proceeds immediately. A
+page carrying Cloudflare challenge markers waits only for that page, checks it
+again once per second, and continues as soon as real content replaces the
+challenge. A challenge that is not manually cleared before the configured
+deadline is recorded as `Blocked`; it is never parsed as product data.
+
 If Cloudflare still loops after you click the checkbox, attach the scraper to a
 normal Chrome/Edge process using the included headed runner. Close any previous
 scraper browser, then run this from `kingston_scraper`:

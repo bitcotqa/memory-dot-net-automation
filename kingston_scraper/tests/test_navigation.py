@@ -11,7 +11,7 @@ import pytest
 
 from agent.error_handler import ScrapeError, FailureType
 from agent import navigation
-from agent.navigation import open_server_page
+from agent.navigation import open_product_page, open_server_page
 
 
 class _FakeAgent:
@@ -45,6 +45,35 @@ class _ChallengeAgent(_FakeAgent):
     def __init__(self):
         super().__init__(403, "<html>performing security verification</html>", "Just a moment...")
         self.page = self._Page(self)
+
+
+class _MixedPageAgent(_FakeAgent):
+    """Serve normal and challenged pages from the same browser session."""
+
+    class _Page:
+        def __init__(self, owner):
+            self.owner = owner
+
+        def wait_for_timeout(self, _milliseconds):
+            self.owner.challenge_waits += 1
+            self.owner._title = "Kingston Technology"
+            self.owner._html = _large_page('<div class="s-productDetails">SSD</div>')
+
+    def __init__(self):
+        super().__init__(200, "")
+        self.page = self._Page(self)
+        self.challenge_waits = 0
+
+    def goto(self, url):
+        if "challenged" in url:
+            self._status = 403
+            self._title = "Just a moment..."
+            self._html = "<html>performing security verification</html>"
+        else:
+            self._status = 200
+            self._title = "Kingston Technology"
+            self._html = _large_page('<div class="c-configuratorResultsCard">Memory</div>')
+        return True, self._status, None
 
 
 def _large_page(body: str, min_len: int = 25000) -> str:
@@ -102,3 +131,19 @@ def test_headed_mode_waits_for_visible_challenge_to_clear(monkeypatch):
     soup = open_server_page(agent, "https://www.kingston.com/en/memory/search/model/2/fine")
 
     assert soup.select_one(".c-configuratorResultsCard") is not None
+
+
+def test_each_url_independently_checks_for_challenge(monkeypatch):
+    """Normal -> challenged -> normal only waits for the challenged load."""
+    monkeypatch.setattr(navigation, "HEADLESS", False)
+    monkeypatch.setattr(navigation, "CAPTCHA_WAIT_SECONDS", 2)
+    agent = _MixedPageAgent()
+
+    first = open_server_page(agent, "https://www.kingston.com/normal-server")
+    challenged = open_product_page(agent, "https://www.kingston.com/challenged-ssd")
+    last = open_server_page(agent, "https://www.kingston.com/another-normal-server")
+
+    assert first.select_one(".c-configuratorResultsCard") is not None
+    assert challenged.select_one(".s-productDetails") is not None
+    assert last.select_one(".c-configuratorResultsCard") is not None
+    assert agent.challenge_waits == 1
