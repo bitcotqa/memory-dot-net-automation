@@ -32,3 +32,10 @@ kingston_scraper/output/kingston_test_5.zip
 # Local Playwright profile (cookies, cache, browser state)
 kingston_scraper/state/browser_profile/
 kingston_scraper/state/manual_*_profile/
+
+# Hpe/spec_verifier -- source data and generated reports (data privacy, not deliverable)
+Hpe/spec_verifier/*.csv
+Hpe/spec_verifier/verification_report_*.html
+Hpe/spec_verifier/verification_log.txt
+Hpe/spec_verifier/*_output.txt
+Hpe/spec_verifier/*_ANALYSIS.txt
