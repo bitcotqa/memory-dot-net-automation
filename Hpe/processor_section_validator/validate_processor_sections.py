@@ -542,16 +542,40 @@ def classify_description(desc, pdf_index):
     return "Missing", "", comment
 
 
+# Some CSV cells use a curly/smart quote (U+2018/U+2019/U+201C/U+201D) as the
+# Python-list-literal delimiter itself (e.g. "[‘21264’]") instead of a
+# straight quote, which is a SyntaxError for ast.literal_eval - the whole cell
+# then silently parses as no data at all. Only quotes sitting where a
+# delimiter belongs (right after "[" or ", ", or right before "]" or ",") are
+# swapped; a curly quote used as normal punctuation inside an already-valid
+# string (e.g. "Intel's" mid-word) is left untouched.
+CURLY_QUOTES = set("‘’“”")
+_OPEN_QUOTE_RE = re.compile(r"([\[,]\s*)([‘“])")
+_CLOSE_QUOTE_RE = re.compile(r"([’”])(\s*[\],])")
+
+
+def _straighten_delimiter_quotes(cell):
+    cell = _OPEN_QUOTE_RE.sub(lambda m: m.group(1) + ("'" if m.group(2) == "‘" else '"'), cell)
+    cell = _CLOSE_QUOTE_RE.sub(lambda m: ("'" if m.group(1) == "’" else '"') + m.group(2), cell)
+    return cell
+
+
 def parse_list_cell(cell):
     if pd.isna(cell):
         return None
     try:
         val = ast.literal_eval(cell)
-        if isinstance(val, list):
-            return [str(v).strip() for v in val if str(v).strip()]
-        return [str(val).strip()]
     except (ValueError, SyntaxError):
-        return None
+        if any(c in CURLY_QUOTES for c in cell):
+            try:
+                val = ast.literal_eval(_straighten_delimiter_quotes(cell))
+            except (ValueError, SyntaxError):
+                return None
+        else:
+            return None
+    if isinstance(val, list):
+        return [str(v).strip() for v in val if str(v).strip()]
+    return [str(val).strip()]
 
 
 def main():
