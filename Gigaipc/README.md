@@ -15,7 +15,7 @@ pip install -r requirements.txt
 **Scrape the full catalog:**
 
 ```
-python scrape_products.py --output output/gigaipc_products.csv
+python scrape_products.py --output gigaipc_products.csv
 ```
 
 Crawls the paginated `/en/products` listing to discover every product URL,
@@ -25,7 +25,7 @@ then fetches each product-detail page and extracts `model_name`, `category`,
 **Audit an existing catalog CSV against the live site:**
 
 ```
-python validate_products.py --input output/gigaipc_products.csv
+python validate_products.py --input gigaipc_products.csv
 ```
 
 Re-crawls the live catalog and compares it against the given CSV row by row,
@@ -41,17 +41,8 @@ field by field. Writes:
 Both scripts accept `--workers` and `--delay` to tune request concurrency /
 politeness, and `--limit` to cap the run for testing.
 
-## Output
-
-`output/` holds the current verified snapshot:
-
-- `gigaipc_products.csv` — 270 products, every field verified against the
-  live site (see `gigaipc_match_report.csv`: 270/270 `MATCHED`).
-- `gigaipc_match_report.csv` — the full audit trail behind that verification.
-- `gigaipc_missing_products_report.csv` — logs one anomaly found on the live
-  site: `products-detail/test123` (model name `愛貝斯測試`), an empty
-  placeholder/test page with no category or specifications. Not a real
-  product, intentionally left out of the catalog.
+Generated CSVs are run output, not part of this repo — run the scripts
+locally to produce them.
 
 ## Notes
 

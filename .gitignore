@@ -39,3 +39,7 @@ Hpe/spec_verifier/verification_report_*.html
 Hpe/spec_verifier/verification_log.txt
 Hpe/spec_verifier/*_output.txt
 Hpe/spec_verifier/*_ANALYSIS.txt
+
+# Gigaipc -- generated catalog/report CSVs are run output, not source
+Gigaipc/*.csv
+Gigaipc/output/
