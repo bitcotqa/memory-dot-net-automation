@@ -4,6 +4,20 @@ Scrapes the GIGAIPC industrial-PC product catalog
 (https://www.gigaipc.com/en/products) and audits an existing catalog CSV
 against the live site, field by field.
 
+## About This Task
+
+GIGAIPC's product catalog (specs, categories, images) is maintained as a CSV
+export used downstream for comparison/reporting. That export can drift from
+the live site over time as GIGAIPC updates product pages, so this tool has
+two jobs:
+
+1. **Scrape** — build a fresh catalog CSV directly from the live site.
+2. **Validate** — take an existing catalog CSV (e.g. one someone else
+   delivered) and audit it against the live site, field by field, producing
+   a report that shows exactly what's correct, what's changed, and what's
+   missing on either side. That report is what gets shared back as QA
+   feedback.
+
 ## Setup
 
 ```
@@ -53,3 +67,7 @@ locally to produce them.
 - `category` is taken from the top-level breadcrumb link on each product
   page (e.g. "Industrial Motherboards"), not the narrower sub-series tag
   shown next to the product title.
+- Match reports and product-catalog CSVs are sorted differently (report
+  rows are sorted alphabetically by URL; a hand-maintained catalog CSV may
+  use its own order), so always cross-reference rows by `url` /
+  `model_name`, never by row number.
