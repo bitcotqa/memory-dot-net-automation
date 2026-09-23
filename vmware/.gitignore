@@ -1,0 +1,6 @@
+# Source data and generated reports -- data privacy, not deliverable
+*.csv
+*.xlsx
+
+# Python bytecode
+__pycache__/
