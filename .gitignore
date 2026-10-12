@@ -49,3 +49,6 @@ Gigaipc/gigabyte_enterprise_products/*.xlsx
 # Hpe / kingston_scraper -- generated run output, not source
 Hpe/output/
 kingston_scraper/output/
+
+__pycache__/
+.~lock.*
